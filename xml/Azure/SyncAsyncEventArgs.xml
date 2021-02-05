@@ -21,22 +21,22 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public SyncAsyncEventArgs (bool runSynchronously, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool runSynchronously, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="C#" Value="public SyncAsyncEventArgs (bool isRunningSynchronously, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(bool isRunningSynchronously, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:Azure.SyncAsyncEventArgs.#ctor(System.Boolean,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (runSynchronously As Boolean, Optional cancellationToken As CancellationToken = Nothing)" />
-      <MemberSignature Language="F#" Value="new Azure.SyncAsyncEventArgs : bool * System.Threading.CancellationToken -&gt; Azure.SyncAsyncEventArgs" Usage="new Azure.SyncAsyncEventArgs (runSynchronously, cancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (isRunningSynchronously As Boolean, Optional cancellationToken As CancellationToken = Nothing)" />
+      <MemberSignature Language="F#" Value="new Azure.SyncAsyncEventArgs : bool * System.Threading.CancellationToken -&gt; Azure.SyncAsyncEventArgs" Usage="new Azure.SyncAsyncEventArgs (isRunningSynchronously, cancellationToken)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
         <AssemblyVersion>1.9.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="runSynchronously" Type="System.Boolean" />
+        <Parameter Name="isRunningSynchronously" Type="System.Boolean" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>
-        <param name="runSynchronously">
+        <param name="isRunningSynchronously">
             A value indicating whether the event handler was invoked
             synchronously or asynchronously.  Please see
             <see cref="T:Azure.Core.SyncAsyncEventHandler`1" /> for more details.
@@ -84,12 +84,12 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="RunSynchronously">
-      <MemberSignature Language="C#" Value="public bool RunSynchronously { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool RunSynchronously" />
-      <MemberSignature Language="DocId" Value="P:Azure.SyncAsyncEventArgs.RunSynchronously" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RunSynchronously As Boolean" />
-      <MemberSignature Language="F#" Value="member this.RunSynchronously : bool" Usage="Azure.SyncAsyncEventArgs.RunSynchronously" />
+    <Member MemberName="IsRunningSynchronously">
+      <MemberSignature Language="C#" Value="public bool IsRunningSynchronously { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsRunningSynchronously" />
+      <MemberSignature Language="DocId" Value="P:Azure.SyncAsyncEventArgs.IsRunningSynchronously" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsRunningSynchronously As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsRunningSynchronously : bool" Usage="Azure.SyncAsyncEventArgs.IsRunningSynchronously" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Core</AssemblyName>
@@ -119,7 +119,7 @@
              and serious performance problems.
              </para>
           <para>
-             You can use this <see cref="P:Azure.SyncAsyncEventArgs.RunSynchronously" /> property to check
+             You can use this <see cref="P:Azure.SyncAsyncEventArgs.IsRunningSynchronously" /> property to check
              how the event is being raised and implement your handler
              accordingly.  Here's an example handler that's safe to invoke from
              both sync and async code paths.
@@ -127,7 +127,7 @@
              var client = new AlarmClient();
              client.Ring += async (SyncAsyncEventArgs e) =&gt;
              {
-                 if (e.RunSynchronously)
+                 if (e.IsRunningSynchronously)
                  {
                      Console.WriteLine("Wake up!");
                  }

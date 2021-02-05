@@ -87,7 +87,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Additional claims to be included in the token.
+            Additional claims to be included in the token. See <see href="https://openid.net/specs/openid-connect-core-1_0-final.html#ClaimsParameter">https://openid.net/specs/openid-connect-core-1_0-final.html#ClaimsParameter</see> for more information on format and content.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

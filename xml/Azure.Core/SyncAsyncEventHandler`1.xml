@@ -67,7 +67,7 @@
              (via something like
              <c>new CancellationTokenSource(TimeSpan.FromSeconds(10)).Token</c>,
              for example) will correctly propagate.
-             </description></item><item><description><see cref="P:Azure.SyncAsyncEventArgs.RunSynchronously" /> is a flag indicating
+             </description></item><item><description><see cref="P:Azure.SyncAsyncEventArgs.IsRunningSynchronously" /> is a flag indicating
              whether your handler was invoked synchronously or asynchronously.  If
              you're calling sync methods on your client, you should use sync methods
              to implement your event handler (you can return
@@ -75,7 +75,7 @@
              your client, you should use async methods where possible to implement
              your event handler.  If you're not in control of how the client will be
              used or want to write safer code, you should check the
-             <see cref="P:Azure.SyncAsyncEventArgs.RunSynchronously" /> property and call
+             <see cref="P:Azure.SyncAsyncEventArgs.IsRunningSynchronously" /> property and call
              either sync or async methods as directed.
              </description></item><item><description>
              Most events will customize the event data by deriving from
@@ -117,7 +117,7 @@
              Diagnosing.NET Core ThreadPool Starvation with PerfView</see>
              for a detailed explanation of how that can cause serious performance
              problems.  We recommend you use the
-             <see cref="P:Azure.SyncAsyncEventArgs.RunSynchronously" /> flag to avoid
+             <see cref="P:Azure.SyncAsyncEventArgs.IsRunningSynchronously" /> flag to avoid
              ThreadPool starvation.
              </para>
     </remarks>
@@ -171,7 +171,7 @@
              on a client.  If you write an async handler but raise it from a sync
              method, the handler will be doing sync-over-async and may cause
              ThreadPool starvation.  See the note in Remarks for more details.  You
-             should use the <see cref="P:Azure.SyncAsyncEventArgs.RunSynchronously" />
+             should use the <see cref="P:Azure.SyncAsyncEventArgs.IsRunningSynchronously" />
              property to check how the event is being raised and implement your
              handler accordingly.  Here's an example handler that's safe to invoke
              from both sync and async code paths.
@@ -179,7 +179,7 @@
              var client = new AlarmClient();
              client.Ring += async (SyncAsyncEventArgs e) =&gt;
              {
-                 if (e.RunSynchronously)
+                 if (e.IsRunningSynchronously)
                  {
                      Console.WriteLine("Wake up!");
                  }
