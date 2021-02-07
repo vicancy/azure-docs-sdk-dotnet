@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
     <AssemblyVersion>4.13.0.0</AssemblyVersion>
+    <AssemblyVersion>4.14.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntime</BaseTypeName>
@@ -39,6 +40,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,15 +51,15 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ManagedIntegrationRuntime (System.Collections.Generic.IDictionary&lt;string,object&gt; additionalProperties = default, string description = default, string state = default, Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeComputeProperties computeProperties = default, Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeSsisProperties ssisProperties = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IDictionary`2&lt;string, object&gt; additionalProperties, string description, string state, class Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeComputeProperties computeProperties, class Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeSsisProperties ssisProperties) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.ManagedIntegrationRuntime.#ctor(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeComputeProperties,Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeSsisProperties)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional additionalProperties As IDictionary(Of String, Object) = Nothing, Optional description As String = Nothing, Optional state As String = Nothing, Optional computeProperties As IntegrationRuntimeComputeProperties = Nothing, Optional ssisProperties As IntegrationRuntimeSsisProperties = Nothing)" />
-      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.DataFactory.Models.ManagedIntegrationRuntime : System.Collections.Generic.IDictionary&lt;string, obj&gt; * string * string * Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeComputeProperties * Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeSsisProperties -&gt; Microsoft.Azure.Management.DataFactory.Models.ManagedIntegrationRuntime" Usage="new Microsoft.Azure.Management.DataFactory.Models.ManagedIntegrationRuntime (additionalProperties, description, state, computeProperties, ssisProperties)" />
+      <MemberSignature Language="C#" Value="public ManagedIntegrationRuntime (System.Collections.Generic.IDictionary&lt;string,object&gt; additionalProperties = default, string description = default, string state = default, Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeComputeProperties computeProperties = default, Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeSsisProperties ssisProperties = default, Microsoft.Azure.Management.DataFactory.Models.ManagedVirtualNetworkReference managedVirtualNetwork = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IDictionary`2&lt;string, object&gt; additionalProperties, string description, string state, class Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeComputeProperties computeProperties, class Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeSsisProperties ssisProperties, class Microsoft.Azure.Management.DataFactory.Models.ManagedVirtualNetworkReference managedVirtualNetwork) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.DataFactory.Models.ManagedIntegrationRuntime.#ctor(System.Collections.Generic.IDictionary{System.String,System.Object},System.String,System.String,Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeComputeProperties,Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeSsisProperties,Microsoft.Azure.Management.DataFactory.Models.ManagedVirtualNetworkReference)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional additionalProperties As IDictionary(Of String, Object) = Nothing, Optional description As String = Nothing, Optional state As String = Nothing, Optional computeProperties As IntegrationRuntimeComputeProperties = Nothing, Optional ssisProperties As IntegrationRuntimeSsisProperties = Nothing, Optional managedVirtualNetwork As ManagedVirtualNetworkReference = Nothing)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.DataFactory.Models.ManagedIntegrationRuntime : System.Collections.Generic.IDictionary&lt;string, obj&gt; * string * string * Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeComputeProperties * Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeSsisProperties * Microsoft.Azure.Management.DataFactory.Models.ManagedVirtualNetworkReference -&gt; Microsoft.Azure.Management.DataFactory.Models.ManagedIntegrationRuntime" Usage="new Microsoft.Azure.Management.DataFactory.Models.ManagedIntegrationRuntime (additionalProperties, description, state, computeProperties, ssisProperties, managedVirtualNetwork)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
-        <AssemblyVersion>4.13.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="additionalProperties" Type="System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;" />
@@ -65,6 +67,7 @@
         <Parameter Name="state" Type="System.String" />
         <Parameter Name="computeProperties" Type="Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeComputeProperties" />
         <Parameter Name="ssisProperties" Type="Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeSsisProperties" />
+        <Parameter Name="managedVirtualNetwork" Type="Microsoft.Azure.Management.DataFactory.Models.ManagedVirtualNetworkReference" />
       </Parameters>
       <Docs>
         <param name="additionalProperties">Unmatched properties from the
@@ -79,6 +82,8 @@
             integration runtime.</param>
         <param name="ssisProperties">SSIS properties for managed
             integration runtime.</param>
+        <param name="managedVirtualNetwork">Managed Virtual Network
+            reference.</param>
         <summary>
             Initializes a new instance of the ManagedIntegrationRuntime class.
             </summary>
@@ -95,6 +100,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -113,6 +119,34 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="ManagedVirtualNetwork">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.DataFactory.Models.ManagedVirtualNetworkReference ManagedVirtualNetwork { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.DataFactory.Models.ManagedVirtualNetworkReference ManagedVirtualNetwork" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.DataFactory.Models.ManagedIntegrationRuntime.ManagedVirtualNetwork" />
+      <MemberSignature Language="VB.NET" Value="Public Property ManagedVirtualNetwork As ManagedVirtualNetworkReference" />
+      <MemberSignature Language="F#" Value="member this.ManagedVirtualNetwork : Microsoft.Azure.Management.DataFactory.Models.ManagedVirtualNetworkReference with get, set" Usage="Microsoft.Azure.Management.DataFactory.Models.ManagedIntegrationRuntime.ManagedVirtualNetwork" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
+        <AssemblyVersion>4.14.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[Newtonsoft.Json.JsonProperty(PropertyName="managedVirtualNetwork")]</AttributeName>
+          <AttributeName Language="F#">[&lt;Newtonsoft.Json.JsonProperty(PropertyName="managedVirtualNetwork")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.DataFactory.Models.ManagedVirtualNetworkReference</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets managed Virtual Network reference.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="SsisProperties">
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeSsisProperties SsisProperties { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.DataFactory.Models.IntegrationRuntimeSsisProperties SsisProperties" />
@@ -123,6 +157,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -151,6 +186,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -182,6 +218,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.DataFactory</AssemblyName>
         <AssemblyVersion>4.13.0.0</AssemblyVersion>
+        <AssemblyVersion>4.14.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
