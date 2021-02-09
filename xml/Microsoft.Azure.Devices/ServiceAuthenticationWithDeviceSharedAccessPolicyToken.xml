@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
     <AssemblyVersion>1.29.0.0</AssemblyVersion>
+    <AssemblyVersion>1.30.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -18,7 +19,7 @@
   </Interfaces>
   <Docs>
     <summary>
-            Authentication method that uses a device's shared access signature to authenticate with service. 
+            Authentication method that uses a device's shared access signature to authenticate with service.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -33,15 +34,18 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
         <AssemblyVersion>1.29.0.0</AssemblyVersion>
+        <AssemblyVersion>1.30.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="deviceId" Type="System.String" />
         <Parameter Name="sharedAccessSignature" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="deviceId">To be added.</param>
-        <param name="sharedAccessSignature">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="deviceId">The device Id.</param>
+        <param name="sharedAccessSignature">The shared access signature.</param>
+        <summary>
+            Initializes a new instance of the <see cref="T:Microsoft.Azure.Devices.ServiceAuthenticationWithDeviceSharedAccessPolicyToken" /> class.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -55,6 +59,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
         <AssemblyVersion>1.29.0.0</AssemblyVersion>
+        <AssemblyVersion>1.30.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -80,6 +85,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
         <AssemblyVersion>1.29.0.0</AssemblyVersion>
+        <AssemblyVersion>1.30.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.IotHubConnectionStringBuilder</ReturnType>
@@ -88,9 +94,11 @@
         <Parameter Name="iotHubConnectionStringBuilder" Type="Microsoft.Azure.Devices.IotHubConnectionStringBuilder" />
       </Parameters>
       <Docs>
-        <param name="iotHubConnectionStringBuilder">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="iotHubConnectionStringBuilder">The connection build object to populate.</param>
+        <summary>
+            Populates the builder with values needed to authenticate with device's shared access signature.
+            </summary>
+        <returns>The populated connection string builder object.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -104,6 +112,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
         <AssemblyVersion>1.29.0.0</AssemblyVersion>
+        <AssemblyVersion>1.30.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

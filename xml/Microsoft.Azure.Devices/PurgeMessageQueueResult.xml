@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
     <AssemblyVersion>1.29.0.0</AssemblyVersion>
+    <AssemblyVersion>1.30.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,6 +29,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
         <AssemblyVersion>1.29.0.0</AssemblyVersion>
+        <AssemblyVersion>1.30.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -45,6 +47,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
         <AssemblyVersion>1.29.0.0</AssemblyVersion>
+        <AssemblyVersion>1.30.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -57,7 +60,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            The ID of the device whose messages are being purged.
+            The Id of the device whose messages are being purged.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -73,6 +76,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
         <AssemblyVersion>1.29.0.0</AssemblyVersion>
+        <AssemblyVersion>1.30.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

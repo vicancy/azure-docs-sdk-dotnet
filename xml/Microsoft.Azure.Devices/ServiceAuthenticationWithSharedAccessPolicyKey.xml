@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
     <AssemblyVersion>1.29.0.0</AssemblyVersion>
+    <AssemblyVersion>1.30.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -33,6 +34,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
         <AssemblyVersion>1.29.0.0</AssemblyVersion>
+        <AssemblyVersion>1.30.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="policyName" Type="System.String" />
@@ -57,12 +59,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
         <AssemblyVersion>1.29.0.0</AssemblyVersion>
+        <AssemblyVersion>1.30.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            The shared access key value.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -77,12 +82,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
         <AssemblyVersion>1.29.0.0</AssemblyVersion>
+        <AssemblyVersion>1.30.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            The shared access policy name.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -100,6 +108,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
         <AssemblyVersion>1.29.0.0</AssemblyVersion>
+        <AssemblyVersion>1.30.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Devices.IotHubConnectionStringBuilder</ReturnType>
@@ -108,9 +117,11 @@
         <Parameter Name="iotHubConnectionStringBuilder" Type="Microsoft.Azure.Devices.IotHubConnectionStringBuilder" />
       </Parameters>
       <Docs>
-        <param name="iotHubConnectionStringBuilder">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="iotHubConnectionStringBuilder">The connection build object to populate.</param>
+        <summary>
+            Populates the builder with values needed to authenticate with shared access policy key.
+            </summary>
+        <returns>The populated connection string builder object.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

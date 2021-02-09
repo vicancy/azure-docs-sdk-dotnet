@@ -7,13 +7,16 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
     <AssemblyVersion>1.29.0.0</AssemblyVersion>
+    <AssemblyVersion>1.30.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Generates hash values of a string.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -27,6 +30,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
         <AssemblyVersion>1.29.0.0</AssemblyVersion>
+        <AssemblyVersion>1.30.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -35,9 +39,11 @@
         <Parameter Name="data" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="data">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="data">Input data.</param>
+        <summary>
+            Computes a long hash from the input data.
+            </summary>
+        <returns>Long hash computed from the input data.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -51,6 +57,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Devices</AssemblyName>
         <AssemblyVersion>1.29.0.0</AssemblyVersion>
+        <AssemblyVersion>1.30.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int16</ReturnType>
@@ -59,9 +66,11 @@
         <Parameter Name="data" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="data">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="data">Input data.</param>
+        <summary>
+            Computes a short hash from the input data.
+            </summary>
+        <returns>Short hash computed from the input data.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
