@@ -38,7 +38,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public RedisRebootParameters (string rebootType = default, int? shardId = default, System.Collections.Generic.IList&lt;Nullable&lt;int&gt;&gt; ports = default);" />
+      <MemberSignature Language="C#" Value="public RedisRebootParameters (string rebootType = default, int? shardId = default, System.Collections.Generic.IList&lt;int?&gt; ports = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string rebootType, valuetype System.Nullable`1&lt;int32&gt; shardId, class System.Collections.Generic.IList`1&lt;valuetype System.Nullable`1&lt;int32&gt;&gt; ports) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Redis.Models.RedisRebootParameters.#ctor(System.String,System.Nullable{System.Int32},System.Collections.Generic.IList{System.Nullable{System.Int32}})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (Optional rebootType As String = Nothing, Optional shardId As Nullable(Of Integer) = Nothing, Optional ports As IList(Of Nullable(Of Integer)) = Nothing)" />
@@ -68,7 +68,7 @@
       </Docs>
     </Member>
     <Member MemberName="Ports">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Nullable&lt;int&gt;&gt; Ports { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;int?&gt; Ports { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;valuetype System.Nullable`1&lt;int32&gt;&gt; Ports" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.Redis.Models.RedisRebootParameters.Ports" />
       <MemberSignature Language="VB.NET" Value="Public Property Ports As IList(Of Nullable(Of Integer))" />

@@ -44,7 +44,7 @@
       </Docs>
     </Member>
     <Member MemberName="ContentEncoding">
-      <MemberSignature Language="C#" Value="public string ContentEncoding { get; set; }" />
+      <MemberSignature Language="C#" Value="public string? ContentEncoding { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ContentEncoding" />
       <MemberSignature Language="DocId" Value="P:Azure.Core.Amqp.AmqpMessageProperties.ContentEncoding" />
       <MemberSignature Language="VB.NET" Value="Public Property ContentEncoding As String" />
@@ -67,7 +67,7 @@
       </Docs>
     </Member>
     <Member MemberName="ContentType">
-      <MemberSignature Language="C#" Value="public string ContentType { get; set; }" />
+      <MemberSignature Language="C#" Value="public string? ContentType { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ContentType" />
       <MemberSignature Language="DocId" Value="P:Azure.Core.Amqp.AmqpMessageProperties.ContentType" />
       <MemberSignature Language="VB.NET" Value="Public Property ContentType As String" />
@@ -136,7 +136,7 @@
       </Docs>
     </Member>
     <Member MemberName="GroupId">
-      <MemberSignature Language="C#" Value="public string GroupId { get; set; }" />
+      <MemberSignature Language="C#" Value="public string? GroupId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string GroupId" />
       <MemberSignature Language="DocId" Value="P:Azure.Core.Amqp.AmqpMessageProperties.GroupId" />
       <MemberSignature Language="VB.NET" Value="Public Property GroupId As String" />
@@ -228,7 +228,7 @@
       </Docs>
     </Member>
     <Member MemberName="ReplyToGroupId">
-      <MemberSignature Language="C#" Value="public string ReplyToGroupId { get; set; }" />
+      <MemberSignature Language="C#" Value="public string? ReplyToGroupId { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ReplyToGroupId" />
       <MemberSignature Language="DocId" Value="P:Azure.Core.Amqp.AmqpMessageProperties.ReplyToGroupId" />
       <MemberSignature Language="VB.NET" Value="Public Property ReplyToGroupId As String" />
@@ -251,7 +251,7 @@
       </Docs>
     </Member>
     <Member MemberName="Subject">
-      <MemberSignature Language="C#" Value="public string Subject { get; set; }" />
+      <MemberSignature Language="C#" Value="public string? Subject { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
       <MemberSignature Language="DocId" Value="P:Azure.Core.Amqp.AmqpMessageProperties.Subject" />
       <MemberSignature Language="VB.NET" Value="Public Property Subject As String" />

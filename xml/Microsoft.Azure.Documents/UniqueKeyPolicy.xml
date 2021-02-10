@@ -106,6 +106,12 @@
         <AssemblyName>Microsoft.Azure.Documents.Client</AssemblyName>
         <AssemblyVersion>2.13.1.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[Newtonsoft.Json.JsonProperty(PropertyName="uniqueKeys")]</AttributeName>
+          <AttributeName Language="F#">[&lt;Newtonsoft.Json.JsonProperty(PropertyName="uniqueKeys")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.Collection&lt;Microsoft.Azure.Documents.UniqueKey&gt;</ReturnType>
       </ReturnValue>

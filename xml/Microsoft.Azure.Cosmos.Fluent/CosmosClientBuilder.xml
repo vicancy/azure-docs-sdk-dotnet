@@ -198,7 +198,6 @@
         <remarks>
              This function is an alternative to <see cref="M:Microsoft.Azure.Cosmos.Fluent.CosmosClientBuilder.WithApplicationRegion(System.String)" />, either one can be set but not both.
             </remarks>
-        <altmember cref="P:Microsoft.Azure.Cosmos.CosmosClientOptions.ApplicationPreferredRegions" />
         <example>
             The example below creates a new <see cref="T:Microsoft.Azure.Cosmos.Fluent.CosmosClientBuilder" /> with a of preferred regions.
             <code language="c#"><![CDATA[
@@ -208,6 +207,7 @@
             .WithApplicationPreferredRegions(new[] {Regions.EastUS, Regions.EastUS2});
             CosmosClient client = cosmosClientBuilder.Build();
             ]]></code></example>
+        <altmember cref="P:Microsoft.Azure.Cosmos.CosmosClientOptions.ApplicationPreferredRegions" />
       </Docs>
     </Member>
     <Member MemberName="WithApplicationRegion">
@@ -234,7 +234,6 @@
             </summary>
         <returns>The current <see cref="T:Microsoft.Azure.Cosmos.Fluent.CosmosClientBuilder" />.</returns>
         <remarks>To be added.</remarks>
-        <altmember cref="P:Microsoft.Azure.Cosmos.CosmosClientOptions.ApplicationRegion" />
         <example>
             The example below creates a new <see cref="T:Microsoft.Azure.Cosmos.Fluent.CosmosClientBuilder" /> with a of preferred region.
             <code language="c#"><![CDATA[
@@ -244,6 +243,7 @@
             .WithApplicationRegion("East US 2");
             CosmosClient client = cosmosClientBuilder.Build();
             ]]></code></example>
+        <altmember cref="P:Microsoft.Azure.Cosmos.CosmosClientOptions.ApplicationRegion" />
       </Docs>
     </Member>
     <Member MemberName="WithBulkExecution">
@@ -391,8 +391,8 @@
         <remarks>
             For more information, see <see href="https://docs.microsoft.com/azure/documentdb/documentdb-performance-tips#direct-connection">Connection policy: Use direct connection mode</see>.
             </remarks>
-        <altmember cref="P:Microsoft.Azure.Cosmos.CosmosClientOptions.ConnectionMode" />
         <altmember cref="P:Microsoft.Azure.Cosmos.CosmosClientOptions.GatewayModeMaxConnectionLimit" />
+        <altmember cref="P:Microsoft.Azure.Cosmos.CosmosClientOptions.ConnectionMode" />
       </Docs>
     </Member>
     <Member MemberName="WithConsistencyLevel">
@@ -446,8 +446,8 @@
             </summary>
         <returns>The <see cref="T:Microsoft.Azure.Cosmos.Fluent.CosmosClientBuilder" /> object</returns>
         <remarks>To be added.</remarks>
-        <altmember cref="T:Microsoft.Azure.Cosmos.CosmosSerializer" />
         <altmember cref="P:Microsoft.Azure.Cosmos.CosmosClientOptions.Serializer" />
+        <altmember cref="T:Microsoft.Azure.Cosmos.CosmosSerializer" />
       </Docs>
     </Member>
     <Member MemberName="WithHttpClientFactory">
@@ -511,7 +511,6 @@
             When the value of <paramref name="limitToEndpoint" /> is false, the SDK will automatically discover all account write and read regions, and use them when the configured application region is not available.
             When set to true, availability is limited to the endpoint specified on the CosmosClientBuilder constructor.
             Using <see cref="M:Microsoft.Azure.Cosmos.Fluent.CosmosClientBuilder.WithApplicationRegion(System.String)" /> is not allowed when the value is true. </remarks>
-        <altmember cref="P:Microsoft.Azure.Cosmos.CosmosClientOptions.LimitToEndpoint" />
         <example>
             The example below creates a new <see cref="T:Microsoft.Azure.Cosmos.Fluent.CosmosClientBuilder" /> to limit the endpoint to East US.
             <code language="c#"><![CDATA[
@@ -521,6 +520,7 @@
             .WithLimitToEndpoint(true);
             CosmosClient client = cosmosClientBuilder.Build();
             ]]></code></example>
+        <altmember cref="P:Microsoft.Azure.Cosmos.CosmosClientOptions.LimitToEndpoint" />
       </Docs>
     </Member>
     <Member MemberName="WithRequestTimeout">
@@ -574,8 +574,8 @@
             </summary>
         <returns>The <see cref="T:Microsoft.Azure.Cosmos.Fluent.CosmosClientBuilder" /> object</returns>
         <remarks>To be added.</remarks>
-        <altmember cref="T:Microsoft.Azure.Cosmos.CosmosSerializer" />
         <altmember cref="P:Microsoft.Azure.Cosmos.CosmosClientOptions.SerializerOptions" />
+        <altmember cref="T:Microsoft.Azure.Cosmos.CosmosSerializer" />
       </Docs>
     </Member>
     <Member MemberName="WithThrottlingRetryOptions">
@@ -604,7 +604,6 @@
             </summary>
         <returns>The current <see cref="T:Microsoft.Azure.Cosmos.Fluent.CosmosClientBuilder" />.</returns>
         <remarks>To be added.</remarks>
-        <altmember cref="P:Microsoft.Azure.Cosmos.CosmosClientOptions.MaxRetryWaitTimeOnRateLimitedRequests" />
         <altmember cref="P:Microsoft.Azure.Cosmos.CosmosClientOptions.MaxRetryAttemptsOnRateLimitedRequests" />
         <para>
             When a request fails due to a rate limiting error, the service sends back a response that
@@ -615,6 +614,7 @@
         <para>
             For more information, see <see href="https://docs.microsoft.com/azure/documentdb/documentdb-performance-tips#429">Handle rate limiting/request rate too large</see>.
             </para>
+        <altmember cref="P:Microsoft.Azure.Cosmos.CosmosClientOptions.MaxRetryWaitTimeOnRateLimitedRequests" />
       </Docs>
     </Member>
   </Members>
