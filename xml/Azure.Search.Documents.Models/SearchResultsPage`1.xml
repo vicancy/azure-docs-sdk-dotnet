@@ -46,7 +46,11 @@
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets the continuation token used to request the next
+            <see cref="T:Azure.Page`1" />.  The continuation token may be null or
+            empty when there are no more pages.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <inheritdoc />
@@ -117,7 +121,10 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets the <see cref="T:Azure.Response" /> that provided this
+            <see cref="T:Azure.Page`1" />.
+            </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <inheritdoc />
@@ -167,7 +174,9 @@
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Azure.Search.Documents.Models.SearchResult&lt;T&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Gets the values in this <see cref="T:Azure.Page`1" />.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
         <inheritdoc />

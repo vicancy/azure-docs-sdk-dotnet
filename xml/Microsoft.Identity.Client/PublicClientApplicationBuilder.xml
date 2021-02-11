@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Identity.Client</AssemblyName>
     <AssemblyVersion>4.25.0.0</AssemblyVersion>
+    <AssemblyVersion>4.26.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Identity.Client.AbstractApplicationBuilder&lt;Microsoft.Identity.Client.PublicClientApplicationBuilder&gt;</BaseTypeName>
@@ -30,6 +31,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Identity.Client.IPublicClientApplication</ReturnType>
@@ -51,6 +53,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Identity.Client.PublicClientApplicationBuilder</ReturnType>
@@ -80,6 +83,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Identity.Client.PublicClientApplicationBuilder</ReturnType>
@@ -108,6 +112,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Identity.Client.PublicClientApplicationBuilder</ReturnType>
@@ -142,6 +147,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Identity.Client.PublicClientApplicationBuilder</ReturnType>
@@ -170,6 +176,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -206,6 +213,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -239,6 +247,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -275,6 +284,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

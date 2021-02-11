@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Identity.Client</AssemblyName>
     <AssemblyVersion>4.25.0.0</AssemblyVersion>
+    <AssemblyVersion>4.26.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -30,6 +31,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Identity.Client.AcquireTokenByAuthorizationCodeParameterBuilder</ReturnType>
@@ -67,6 +69,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -106,6 +109,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Identity.Client.AcquireTokenForClientParameterBuilder</ReturnType>
@@ -137,6 +141,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -173,6 +178,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -211,6 +217,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Identity.Client.AcquireTokenOnBehalfOfParameterBuilder</ReturnType>
@@ -245,6 +252,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -283,6 +291,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -323,6 +332,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Identity.Client.ITokenCache</ReturnType>
@@ -348,6 +358,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Identity.Client.GetAuthorizationRequestUrlParameterBuilder</ReturnType>
@@ -378,6 +389,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -418,6 +430,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

@@ -635,7 +635,7 @@
             DateTime values are interpreted as follows:
             <list type="table"><item><term>UTC DateTime</term><description>Sent as-is to the index.</description></item><item><term>Local DateTime</term><description>Converted to UTC before being sent to the index.
             </description></item><item><term>DateTime with unspecified time zone</term><description>Assumed to be UTC and sent as-is to the index.
-            </description></item></list></description></item><item><term>Edm.GeographyPoint</term><description> Azure.Core.Spatial.PointGeometry
+            </description></item></list></description></item><item><term>Edm.GeographyPoint</term><description> Azure.Core.GeoJson.GeoPoint
             </description></item><item><term>Edm.ComplexType</term><description>
             Any type that can be deserialized from the JSON objects in the
             complex field.  This can be a value type or a reference type, but
@@ -651,8 +651,8 @@
             seq&lt;DateTime&gt; in F#). Both types work, although we recommend
             using <see cref="T:System.Collections.Generic.IEnumerable`1" />.  See the notes
             above on Edm.DateTimeOffset for details.
-            </description></item><item><term>Collection(Edm.GeographyPoint)</term><description>sequence of Azure.Core.Spatial.PointGeometry
-            (seq&lt;PointGeometry&gt; in F#)</description></item><item><term>Collection(Edm.ComplexType)</term><description><see cref="T:System.Collections.Generic.IEnumerable`1" /> (seq&lt;T&gt; in F#) where T is any
+            </description></item><item><term>Collection(Edm.GeographyPoint)</term><description>sequence of Azure.Core.GeoJson.GeoPoint
+            (seq&lt;GeoPoint&gt; in F#)</description></item><item><term>Collection(Edm.ComplexType)</term><description><see cref="T:System.Collections.Generic.IEnumerable`1" /> (seq&lt;T&gt; in F#) where T is any
             type that can be deserialized from the JSON objects in the complex
             collection field. This can be a value type or a reference type.
             </description></item></list>
