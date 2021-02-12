@@ -262,6 +262,35 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="SessionIdleTimeout">
+      <MemberSignature Language="C#" Value="public TimeSpan? SessionIdleTimeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; SessionIdleTimeout" />
+      <MemberSignature Language="DocId" Value="P:Azure.Messaging.ServiceBus.ServiceBusSessionProcessorOptions.SessionIdleTimeout" />
+      <MemberSignature Language="VB.NET" Value="Public Property SessionIdleTimeout As Nullable(Of TimeSpan)" />
+      <MemberSignature Language="F#" Value="member this.SessionIdleTimeout : Nullable&lt;TimeSpan&gt; with get, set" Usage="Azure.Messaging.ServiceBus.ServiceBusSessionProcessorOptions.SessionIdleTimeout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
+        <AssemblyVersion>7.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.TimeSpan&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+             Gets or sets the maximum amount of time to wait for a message to be received for the
+             currently active session. After this time has elapsed, the processor will close the session
+             and attempt to process another session.
+             If not specified, the <see cref="P:Azure.Messaging.ServiceBus.ServiceBusRetryOptions.TryTimeout" /> will be used.
+             </summary>
+        <value>To be added.</value>
+        <remarks>
+             If <see cref="P:Azure.Messaging.ServiceBus.ServiceBusSessionProcessorOptions.SessionIds" /> is populated and <see cref="P:Azure.Messaging.ServiceBus.ServiceBusSessionProcessorOptions.MaxConcurrentSessions" /> is greater or equal to
+             the number of sessions specified in <see cref="P:Azure.Messaging.ServiceBus.ServiceBusSessionProcessorOptions.SessionIds" />, the session will not be closed when the idle timeout elapses.
+             However, it will still control the amount of time each receive call waits.
+             </remarks>
+      </Docs>
+    </Member>
     <Member MemberName="SessionIds">
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string&gt; SessionIds { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; SessionIds" />
