@@ -8,6 +8,7 @@
     <AssemblyName>Microsoft.Identity.Client</AssemblyName>
     <AssemblyVersion>4.25.0.0</AssemblyVersion>
     <AssemblyVersion>4.26.0.0</AssemblyVersion>
+    <AssemblyVersion>4.26.1.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -32,6 +33,7 @@
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
         <AssemblyVersion>4.26.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Identity.Client.Prompt</ReturnType>
@@ -55,6 +57,7 @@
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
         <AssemblyVersion>4.26.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -82,6 +85,7 @@
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
         <AssemblyVersion>4.26.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Identity.Client.Prompt</ReturnType>
@@ -105,6 +109,7 @@
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
         <AssemblyVersion>4.26.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -129,6 +134,7 @@
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
         <AssemblyVersion>4.26.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Identity.Client.Prompt</ReturnType>
@@ -153,6 +159,7 @@
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
         <AssemblyVersion>4.26.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Identity.Client.Prompt</ReturnType>
@@ -176,6 +183,7 @@
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
         <AssemblyVersion>4.26.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -205,6 +213,7 @@
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
         <AssemblyVersion>4.26.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -234,6 +243,7 @@
         <AssemblyName>Microsoft.Identity.Client</AssemblyName>
         <AssemblyVersion>4.25.0.0</AssemblyVersion>
         <AssemblyVersion>4.26.0.0</AssemblyVersion>
+        <AssemblyVersion>4.26.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Identity.Client.Prompt</ReturnType>
