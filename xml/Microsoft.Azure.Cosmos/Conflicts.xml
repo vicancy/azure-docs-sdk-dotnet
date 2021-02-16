@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
     <AssemblyVersion>3.16.0.0</AssemblyVersion>
+    <AssemblyVersion>3.17.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,6 +29,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -45,6 +47,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Cosmos.ResponseMessage&gt;</ReturnType>
@@ -76,6 +79,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Cosmos.FeedIterator&lt;T&gt;</ReturnType>
@@ -125,6 +129,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Cosmos.FeedIterator&lt;T&gt;</ReturnType>
@@ -174,6 +179,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Cosmos.FeedIterator</ReturnType>
@@ -226,6 +232,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Cosmos.FeedIterator</ReturnType>
@@ -276,6 +283,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -304,7 +312,6 @@
                     foreach(ConflictProperties item in await conflictIterator.ReadNextAsync())
                     {
                         MyClass intendedChanges = conflicts.ReadConflictContent<MyClass>(item);
-                        ItemResponse<MyClass> currentState = await conflicts.ReadCurrentAsync<MyClass>(intendedChanges.MyPartitionKey, item);
                     }
                 }
             }
@@ -322,6 +329,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Cosmos.ItemResponse&lt;T&gt;&gt;</ReturnType>
@@ -354,7 +362,7 @@
                     foreach(ConflictProperties item in await conflictIterator.ReadNextAsync())
                     {
                         MyClass intendedChanges = conflicts.ReadConflictContent<MyClass>(item);
-                        ItemResponse<MyClass> currentState = await conflicts.ReadCurrentAsync<MyClass>(intendedChanges.MyPartitionKey, item);
+                        ItemResponse<MyClass> currentState = await conflicts.ReadCurrentAsync<MyClass>(item, intendedChanges.MyPartitionKey);
                     }
                 }
             }

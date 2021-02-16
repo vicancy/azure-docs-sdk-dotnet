@@ -16,7 +16,8 @@
     <summary>
             The versions of Azure Cognitive Search supported by this client
             library.  For more, see
-            <see href="https://docs.microsoft.com/azure/search/search-api-versions" />.
+            <see href="https://docs.microsoft.com/azure/search/search-api-versions">
+            API versions in Azure Cognitive Search</see>.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>

@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
     <AssemblyVersion>3.16.0.0</AssemblyVersion>
+    <AssemblyVersion>3.17.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,6 +29,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -47,6 +49,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -73,6 +76,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -95,6 +99,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IO.Stream</ReturnType>
@@ -119,6 +124,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -141,6 +147,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Net.HttpStatusCode</ReturnType>

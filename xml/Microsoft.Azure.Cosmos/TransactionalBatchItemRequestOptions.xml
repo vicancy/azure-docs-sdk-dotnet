@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
     <AssemblyVersion>3.16.0.0</AssemblyVersion>
+    <AssemblyVersion>3.17.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.Cosmos.RequestOptions</BaseTypeName>
@@ -28,6 +29,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -45,6 +47,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -52,7 +55,7 @@
       <Docs>
         <summary>
             Gets or sets the boolean to only return the headers and status code in
-            the Cosmos DB response for write item operations like Create, Upsert, Patch and Replace.
+            the Cosmos DB response for write item operations like Create, Upsert and Replace.
             This removes the resource from the response. This reduces networking and CPU load by not sending
             the resource back over the network and serializing it on the client.
             </summary>
@@ -72,6 +75,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Microsoft.Azure.Cosmos.IndexingDirective&gt;</ReturnType>

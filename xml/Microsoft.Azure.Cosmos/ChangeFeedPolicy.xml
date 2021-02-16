@@ -1,0 +1,108 @@
+<Type Name="ChangeFeedPolicy" FullName="Microsoft.Azure.Cosmos.ChangeFeedPolicy">
+  <TypeSignature Language="C#" Value="public sealed class ChangeFeedPolicy" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ChangeFeedPolicy extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Azure.Cosmos.ChangeFeedPolicy" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ChangeFeedPolicy" />
+  <TypeSignature Language="F#" Value="type ChangeFeedPolicy = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
+    <AssemblyVersion>3.17.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents the change feed policy configuration for a container in the Azure Cosmos DB service.
+            </summary>
+    <remarks>To be added.</remarks>
+    <example>
+            The example below creates a new container with a custom change feed policy for full fidelity change feed with a retention window of 5 minutes - so intermediary snapshots of changes as well as deleted documents would be
+            available for processing for 5 minutes before they vanish. 
+            Processing the change feed with <see cref="P:Microsoft.Azure.Cosmos.ChangeFeedMode.FullFidelity" /> will only be able within this retention window - if you attempt to process a change feed after more
+            than the retention window (5 minutes in this sample) an error (Status Code 400) will be returned. 
+            It would still be possible to process changes using <see cref="P:Microsoft.Azure.Cosmos.ChangeFeedMode.Incremental" /> mode even when configuring a full fidelity change
+            feed policy with retention window on the container and when using Incremental mode it doesn't matter whether your are out of the retention window or not.
+            <code language="c#"><![CDATA[
+                ContainerProperties containerProperties = new ContainerProperties("MyCollection", "/country");
+                containerProperties.ChangeFeedPolicy.FullFidelityRetention = TimeSpan.FromMinutes(5);
+                
+                CosmosContainerResponse containerCreateResponse = await client.GetDatabase("dbName").CreateContainerAsync(containerProperties, 5000);
+                ContainerProperties createdContainerProperties = containerCreateResponse.Container;
+            ]]></code></example>
+    <altmember cref="T:Microsoft.Azure.Cosmos.ContainerProperties" />
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ChangeFeedPolicy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Cosmos.ChangeFeedPolicy.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FullFidelityNoRetention">
+      <MemberSignature Language="C#" Value="public static TimeSpan FullFidelityNoRetention { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property valuetype System.TimeSpan FullFidelityNoRetention" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Cosmos.ChangeFeedPolicy.FullFidelityNoRetention" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property FullFidelityNoRetention As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.FullFidelityNoRetention : TimeSpan" Usage="Microsoft.Azure.Cosmos.ChangeFeedPolicy.FullFidelityNoRetention" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Disables the retention log.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FullFidelityRetention">
+      <MemberSignature Language="C#" Value="public TimeSpan FullFidelityRetention { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.TimeSpan FullFidelityRetention" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Cosmos.ChangeFeedPolicy.FullFidelityRetention" />
+      <MemberSignature Language="VB.NET" Value="Public Property FullFidelityRetention As TimeSpan" />
+      <MemberSignature Language="F#" Value="member this.FullFidelityRetention : TimeSpan with get, set" Usage="Microsoft.Azure.Cosmos.ChangeFeedPolicy.FullFidelityRetention" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[Newtonsoft.Json.JsonIgnore]</AttributeName>
+          <AttributeName Language="F#">[&lt;Newtonsoft.Json.JsonIgnore&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.TimeSpan</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets a value that indicates for how long operation logs have to be retained.
+            </summary>
+        <value>
+            Value is in TimeSpan.
+            </value>
+        <remarks>
+            Minimum granularity supported is minutes.
+            </remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
     <AssemblyVersion>3.16.0.0</AssemblyVersion>
+    <AssemblyVersion>3.17.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -21,8 +22,8 @@
             Header implementation used for Request and Responses
             </summary>
     <remarks>To be added.</remarks>
-    <altmember cref="T:Microsoft.Azure.Cosmos.ResponseMessage" />
     <altmember cref="T:Microsoft.Azure.Cosmos.RequestMessage" />
+    <altmember cref="T:Microsoft.Azure.Cosmos.ResponseMessage" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -34,6 +35,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -53,6 +55,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -77,6 +80,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -104,6 +108,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -131,6 +136,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String[]</ReturnType>
@@ -154,6 +160,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -176,6 +183,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -198,6 +206,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -220,6 +229,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -246,6 +256,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -272,6 +283,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -301,6 +313,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -331,6 +344,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -357,6 +371,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -383,6 +398,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -405,6 +421,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -430,6 +447,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Double</ReturnType>
@@ -454,6 +472,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -478,6 +497,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -508,6 +528,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.IEnumerator</ReturnType>
@@ -531,6 +552,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

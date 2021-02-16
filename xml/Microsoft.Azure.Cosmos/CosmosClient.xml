@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
     <AssemblyVersion>3.16.0.0</AssemblyVersion>
+    <AssemblyVersion>3.17.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -26,7 +27,7 @@
             <see href="https://docs.microsoft.com/azure/cosmos-db/performance-tips">performance guide</see>.
             </summary>
     <remarks>To be added.</remarks>
-    <altmember cref="T:Microsoft.Azure.Cosmos.CosmosClientOptions" />
+    <altmember cref="T:Microsoft.Azure.Cosmos.Fluent.CosmosClientBuilder" />
     <example>
             This example create a <see cref="T:Microsoft.Azure.Cosmos.CosmosClient" />, <see cref="T:Microsoft.Azure.Cosmos.Database" />, and a <see cref="T:Microsoft.Azure.Cosmos.Container" />.
             The CosmosClient is created with the connection string and configured to use "East US 2" region.
@@ -80,7 +81,7 @@
             
             // Dispose cosmosClient at application exit
             ]]></code></example>
-    <altmember cref="T:Microsoft.Azure.Cosmos.Fluent.CosmosClientBuilder" />
+    <altmember cref="T:Microsoft.Azure.Cosmos.CosmosClientOptions" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -92,6 +93,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -111,6 +113,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="connectionString" Type="System.String" />
@@ -127,7 +130,7 @@
             <see href="https://docs.microsoft.com/azure/cosmos-db/performance-tips">performance guide</see>.
             </summary>
         <remarks>To be added.</remarks>
-        <altmember cref="T:Microsoft.Azure.Cosmos.CosmosClientOptions" />
+        <altmember cref="T:Microsoft.Azure.Cosmos.Fluent.CosmosClientBuilder" />
         <example>
             The CosmosClient is created with the connection string and configured to use "East US 2" region.
             <code language="c#"><![CDATA[
@@ -143,7 +146,38 @@
             
             // Dispose cosmosClient at application exit
             ]]></code></example>
-        <altmember cref="T:Microsoft.Azure.Cosmos.Fluent.CosmosClientBuilder" />
+        <altmember cref="T:Microsoft.Azure.Cosmos.CosmosClientOptions" />
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CosmosClient (string accountEndpoint, Azure.Core.TokenCredential tokenCredential, Microsoft.Azure.Cosmos.CosmosClientOptions clientOptions = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string accountEndpoint, class Azure.Core.TokenCredential tokenCredential, class Microsoft.Azure.Cosmos.CosmosClientOptions clientOptions) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Cosmos.CosmosClient.#ctor(System.String,Azure.Core.TokenCredential,Microsoft.Azure.Cosmos.CosmosClientOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (accountEndpoint As String, tokenCredential As TokenCredential, Optional clientOptions As CosmosClientOptions = Nothing)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Cosmos.CosmosClient : string * Azure.Core.TokenCredential * Microsoft.Azure.Cosmos.CosmosClientOptions -&gt; Microsoft.Azure.Cosmos.CosmosClient" Usage="new Microsoft.Azure.Cosmos.CosmosClient (accountEndpoint, tokenCredential, clientOptions)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="accountEndpoint" Type="System.String" />
+        <Parameter Name="tokenCredential" Type="Azure.Core.TokenCredential" />
+        <Parameter Name="clientOptions" Type="Microsoft.Azure.Cosmos.CosmosClientOptions" />
+      </Parameters>
+      <Docs>
+        <param name="accountEndpoint">The cosmos service endpoint to use.</param>
+        <param name="tokenCredential">
+          <see cref="T:Azure.Core.TokenCredential" />The token to provide AAD token for authorization.</param>
+        <param name="clientOptions">(Optional) client options</param>
+        <summary>
+            Creates a new CosmosClient with the account endpoint URI string and TokenCredential.
+            
+            CosmosClient is thread-safe. Its recommended to maintain a single instance of CosmosClient per lifetime 
+            of the application which enables efficient connection management and performance. Please refer to the
+            <see href="https://docs.microsoft.com/azure/cosmos-db/performance-tips">performance guide</see>.
+            </summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName=".ctor">
@@ -156,6 +190,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="accountEndpoint" Type="System.String" />
@@ -174,7 +209,7 @@
             <see href="https://docs.microsoft.com/azure/cosmos-db/performance-tips">performance guide</see>.
             </summary>
         <remarks>To be added.</remarks>
-        <altmember cref="T:Microsoft.Azure.Cosmos.CosmosClientOptions" />
+        <altmember cref="T:Microsoft.Azure.Cosmos.Fluent.CosmosClientBuilder" />
         <example>
             The CosmosClient is created with the AccountEndpoint, AccountKey or ResourceToken and configured to use "East US 2" region.
             <code language="c#"><![CDATA[
@@ -190,7 +225,7 @@
             
             // Dispose cosmosClient at application exit
             ]]></code></example>
-        <altmember cref="T:Microsoft.Azure.Cosmos.Fluent.CosmosClientBuilder" />
+        <altmember cref="T:Microsoft.Azure.Cosmos.CosmosClientOptions" />
       </Docs>
     </Member>
     <Member MemberName="ClientOptions">
@@ -203,6 +238,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Cosmos.CosmosClientOptions</ReturnType>
@@ -225,6 +261,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Cosmos.DatabaseResponse&gt;</ReturnType>
@@ -265,6 +302,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Cosmos.DatabaseResponse&gt;</ReturnType>
@@ -305,6 +343,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Cosmos.DatabaseResponse&gt;</ReturnType>
@@ -346,6 +385,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Cosmos.DatabaseResponse&gt;</ReturnType>
@@ -387,6 +427,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Cosmos.ResponseMessage&gt;</ReturnType>
@@ -430,6 +471,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -452,6 +494,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -477,6 +520,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -502,6 +546,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Cosmos.Container</ReturnType>
@@ -535,6 +580,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Cosmos.Database</ReturnType>
@@ -572,6 +618,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Cosmos.FeedIterator&lt;T&gt;</ReturnType>
@@ -627,6 +674,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Cosmos.FeedIterator&lt;T&gt;</ReturnType>
@@ -681,6 +729,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Cosmos.FeedIterator</ReturnType>
@@ -737,6 +786,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Cosmos.FeedIterator</ReturnType>
@@ -791,6 +841,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Cosmos.AccountProperties&gt;</ReturnType>
@@ -804,6 +855,32 @@
             A <see cref="T:Microsoft.Azure.Cosmos.AccountProperties" /> wrapped in a <see cref="T:System.Threading.Tasks.Task" /> object.
             </returns>
         <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseFactory">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Azure.Cosmos.CosmosResponseFactory ResponseFactory { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Cosmos.CosmosResponseFactory ResponseFactory" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Cosmos.CosmosClient.ResponseFactory" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ResponseFactory As CosmosResponseFactory" />
+      <MemberSignature Language="F#" Value="member this.ResponseFactory : Microsoft.Azure.Cosmos.CosmosResponseFactory" Usage="Microsoft.Azure.Cosmos.CosmosClient.ResponseFactory" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Cosmos.CosmosResponseFactory</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The response factory used to create CosmosClient response types.
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            This can be used for generating responses for tests, and allows users to create
+            a custom container that modifies the response. For example the client encryption
+            uses this to decrypt responses before returning to the caller.
+            </remarks>
       </Docs>
     </Member>
   </Members>

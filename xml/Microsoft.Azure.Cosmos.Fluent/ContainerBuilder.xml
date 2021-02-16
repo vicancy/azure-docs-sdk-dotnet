@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
     <AssemblyVersion>3.16.0.0</AssemblyVersion>
+    <AssemblyVersion>3.17.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.Cosmos.Fluent.ContainerDefinition&lt;Microsoft.Azure.Cosmos.Fluent.ContainerBuilder&gt;</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,6 +52,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Cosmos.ContainerProperties</ReturnType>
@@ -73,6 +76,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Cosmos.ContainerResponse&gt;</ReturnType>
@@ -101,6 +105,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Cosmos.ContainerResponse&gt;</ReturnType>
@@ -129,6 +134,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Cosmos.ContainerResponse&gt;</ReturnType>
@@ -157,6 +163,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Cosmos.ContainerResponse&gt;</ReturnType>
@@ -175,6 +182,55 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="WithChangeFeedPolicy">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Cosmos.Fluent.ChangeFeedPolicyDefinition WithChangeFeedPolicy (TimeSpan retention);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Azure.Cosmos.Fluent.ChangeFeedPolicyDefinition WithChangeFeedPolicy(valuetype System.TimeSpan retention) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Cosmos.Fluent.ContainerBuilder.WithChangeFeedPolicy(System.TimeSpan)" />
+      <MemberSignature Language="VB.NET" Value="Public Function WithChangeFeedPolicy (retention As TimeSpan) As ChangeFeedPolicyDefinition" />
+      <MemberSignature Language="F#" Value="member this.WithChangeFeedPolicy : TimeSpan -&gt; Microsoft.Azure.Cosmos.Fluent.ChangeFeedPolicyDefinition" Usage="containerBuilder.WithChangeFeedPolicy retention" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Cosmos.Fluent.ChangeFeedPolicyDefinition</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="retention" Type="System.TimeSpan" />
+      </Parameters>
+      <Docs>
+        <param name="retention"> Indicates for how long operation logs have to be retained. <see cref="P:Microsoft.Azure.Cosmos.ChangeFeedPolicy.FullFidelityRetention" />.</param>
+        <summary>
+            Defined the change feed policy for this Azure Cosmos container
+            </summary>
+        <returns>An instance of <see cref="T:Microsoft.Azure.Cosmos.Fluent.ChangeFeedPolicyDefinition" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WithClientEncryptionPolicy">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Cosmos.Fluent.ClientEncryptionPolicyDefinition WithClientEncryptionPolicy ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Azure.Cosmos.Fluent.ClientEncryptionPolicyDefinition WithClientEncryptionPolicy() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Cosmos.Fluent.ContainerBuilder.WithClientEncryptionPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public Function WithClientEncryptionPolicy () As ClientEncryptionPolicyDefinition" />
+      <MemberSignature Language="F#" Value="member this.WithClientEncryptionPolicy : unit -&gt; Microsoft.Azure.Cosmos.Fluent.ClientEncryptionPolicyDefinition" Usage="containerBuilder.WithClientEncryptionPolicy " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Cosmos.Fluent.ClientEncryptionPolicyDefinition</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Defines the ClientEncryptionPolicy for Azure Cosmos container
+            </summary>
+        <returns>An instance of <see cref="T:Microsoft.Azure.Cosmos.Fluent.ClientEncryptionPolicyDefinition" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="WithConflictResolution">
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Cosmos.Fluent.ConflictResolutionDefinition WithConflictResolution ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Azure.Cosmos.Fluent.ConflictResolutionDefinition WithConflictResolution() cil managed" />
@@ -185,6 +241,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Cosmos.Fluent.ConflictResolutionDefinition</ReturnType>
@@ -208,6 +265,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
         <AssemblyVersion>3.16.0.0</AssemblyVersion>
+        <AssemblyVersion>3.17.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Cosmos.Fluent.UniqueKeyDefinition</ReturnType>
