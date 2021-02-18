@@ -524,5 +524,30 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="TransactionPartitionKey">
+      <MemberSignature Language="C#" Value="public string TransactionPartitionKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TransactionPartitionKey" />
+      <MemberSignature Language="DocId" Value="P:Azure.Messaging.ServiceBus.ServiceBusMessage.TransactionPartitionKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property TransactionPartitionKey As String" />
+      <MemberSignature Language="F#" Value="member this.TransactionPartitionKey : string with get, set" Usage="Azure.Messaging.ServiceBus.ServiceBusMessage.TransactionPartitionKey" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
+        <AssemblyVersion>7.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>Gets or sets a partition key for sending a message into an entity via a partitioned transfer queue.</summary>
+        <value>The partition key. Maximum length is 128 characters. </value>
+        <remarks>
+            If a message is sent via a transfer queue in the scope of a transaction, this value selects the
+            transfer queue partition: This is functionally equivalent to <see cref="P:Azure.Messaging.ServiceBus.ServiceBusMessage.PartitionKey" /> and ensures that
+            messages are kept together and in order as they are transferred.
+            See <see href="https://docs.microsoft.com/azure/service-bus-messaging/service-bus-transactions#transfers-and-send-via">Transfers and Send Via</see>.
+            </remarks>
+      </Docs>
+    </Member>
   </Members>
 </Type>

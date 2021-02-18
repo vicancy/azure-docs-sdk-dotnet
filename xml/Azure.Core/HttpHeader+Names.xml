@@ -85,7 +85,8 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Returns <code>"Content-Disposition"</code></summary>
+            Returns <code>"Content-Disposition"</code>.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -362,6 +363,28 @@
       <Docs>
         <summary>
             Returns. <code>"User-Agent"</code></summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WWWAuthenticate">
+      <MemberSignature Language="C#" Value="public static string WWWAuthenticate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property string WWWAuthenticate" />
+      <MemberSignature Language="DocId" Value="P:Azure.Core.HttpHeader.Names.WWWAuthenticate" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property WWWAuthenticate As String" />
+      <MemberSignature Language="F#" Value="member this.WWWAuthenticate : string" Usage="Azure.Core.HttpHeader.Names.WWWAuthenticate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Core</AssemblyName>
+        <AssemblyVersion>1.10.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Returns <code>"WWW-Authenticate"</code>.
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>

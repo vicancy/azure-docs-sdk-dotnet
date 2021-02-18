@@ -1,13 +1,11 @@
-<Type Name="ServiceBusSessionReceiverOptions" FullName="Azure.Messaging.ServiceBus.ServiceBusSessionReceiverOptions">
-  <TypeSignature Language="C#" Value="public class ServiceBusSessionReceiverOptions" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ServiceBusSessionReceiverOptions extends System.Object" />
-  <TypeSignature Language="DocId" Value="T:Azure.Messaging.ServiceBus.ServiceBusSessionReceiverOptions" />
-  <TypeSignature Language="VB.NET" Value="Public Class ServiceBusSessionReceiverOptions" />
-  <TypeSignature Language="F#" Value="type ServiceBusSessionReceiverOptions = class" />
+<Type Name="ServiceBusSenderOptions" FullName="Azure.Messaging.ServiceBus.ServiceBusSenderOptions">
+  <TypeSignature Language="C#" Value="public class ServiceBusSenderOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ServiceBusSenderOptions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Azure.Messaging.ServiceBus.ServiceBusSenderOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Class ServiceBusSenderOptions" />
+  <TypeSignature Language="F#" Value="type ServiceBusSenderOptions = class" />
   <AssemblyInfo>
     <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
-    <AssemblyVersion>7.0.1.0</AssemblyVersion>
-    <AssemblyVersion>7.1.0.0</AssemblyVersion>
     <AssemblyVersion>7.2.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -16,22 +14,20 @@
   <Interfaces />
   <Docs>
     <summary>
-            The set of options that can be specified when creating a <see cref="T:Azure.Messaging.ServiceBus.ServiceBusSessionReceiver" />
+            The set of options that can be specified when creating a <see cref="T:Azure.Messaging.ServiceBus.ServiceBusSender" />
             to configure its behavior.
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ServiceBusSessionReceiverOptions ();" />
+      <MemberSignature Language="C#" Value="public ServiceBusSenderOptions ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Messaging.ServiceBus.ServiceBusSessionReceiverOptions.#ctor" />
+      <MemberSignature Language="DocId" Value="M:Azure.Messaging.ServiceBus.ServiceBusSenderOptions.#ctor" />
       <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
-        <AssemblyVersion>7.1.0.0</AssemblyVersion>
         <AssemblyVersion>7.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -43,14 +39,12 @@
     <Member MemberName="Equals">
       <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Messaging.ServiceBus.ServiceBusSessionReceiverOptions.Equals(System.Object)" />
+      <MemberSignature Language="DocId" Value="M:Azure.Messaging.ServiceBus.ServiceBusSenderOptions.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
-      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="serviceBusSessionReceiverOptions.Equals obj" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="serviceBusSenderOptions.Equals obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
-        <AssemblyVersion>7.1.0.0</AssemblyVersion>
         <AssemblyVersion>7.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -78,14 +72,12 @@
     <Member MemberName="GetHashCode">
       <MemberSignature Language="C#" Value="public override int GetHashCode ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetHashCode() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Messaging.ServiceBus.ServiceBusSessionReceiverOptions.GetHashCode" />
+      <MemberSignature Language="DocId" Value="M:Azure.Messaging.ServiceBus.ServiceBusSenderOptions.GetHashCode" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetHashCode () As Integer" />
-      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="serviceBusSessionReceiverOptions.GetHashCode " />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : unit -&gt; int" Usage="serviceBusSenderOptions.GetHashCode " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
-        <AssemblyVersion>7.1.0.0</AssemblyVersion>
         <AssemblyVersion>7.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -106,67 +98,15 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="PrefetchCount">
-      <MemberSignature Language="C#" Value="public int PrefetchCount { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance int32 PrefetchCount" />
-      <MemberSignature Language="DocId" Value="P:Azure.Messaging.ServiceBus.ServiceBusSessionReceiverOptions.PrefetchCount" />
-      <MemberSignature Language="VB.NET" Value="Public Property PrefetchCount As Integer" />
-      <MemberSignature Language="F#" Value="member this.PrefetchCount : int with get, set" Usage="Azure.Messaging.ServiceBus.ServiceBusSessionReceiverOptions.PrefetchCount" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
-        <AssemblyVersion>7.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.2.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Int32</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets or sets the number of messages that will be eagerly requested from Queues or Subscriptions and queued locally without regard to
-            whether the receiver is actively receiving, intended to help maximize throughput by allowing the receiver to receive
-            from a local cache rather than waiting on a service request.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ReceiveMode">
-      <MemberSignature Language="C#" Value="public Azure.Messaging.ServiceBus.ServiceBusReceiveMode ReceiveMode { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype Azure.Messaging.ServiceBus.ServiceBusReceiveMode ReceiveMode" />
-      <MemberSignature Language="DocId" Value="P:Azure.Messaging.ServiceBus.ServiceBusSessionReceiverOptions.ReceiveMode" />
-      <MemberSignature Language="VB.NET" Value="Public Property ReceiveMode As ServiceBusReceiveMode" />
-      <MemberSignature Language="F#" Value="member this.ReceiveMode : Azure.Messaging.ServiceBus.ServiceBusReceiveMode with get, set" Usage="Azure.Messaging.ServiceBus.ServiceBusSessionReceiverOptions.ReceiveMode" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
-        <AssemblyVersion>7.1.0.0</AssemblyVersion>
-        <AssemblyVersion>7.2.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Azure.Messaging.ServiceBus.ServiceBusReceiveMode</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets or sets the <see cref="P:Azure.Messaging.ServiceBus.ServiceBusSessionReceiverOptions.ReceiveMode" /> used to specify how messages are received. Defaults to PeekLock mode.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="ToString">
       <MemberSignature Language="C#" Value="public override string ToString ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance string ToString() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Azure.Messaging.ServiceBus.ServiceBusSessionReceiverOptions.ToString" />
+      <MemberSignature Language="DocId" Value="M:Azure.Messaging.ServiceBus.ServiceBusSenderOptions.ToString" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function ToString () As String" />
-      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="serviceBusSessionReceiverOptions.ToString " />
+      <MemberSignature Language="F#" Value="override this.ToString : unit -&gt; string" Usage="serviceBusSenderOptions.ToString " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
-        <AssemblyVersion>7.0.1.0</AssemblyVersion>
-        <AssemblyVersion>7.1.0.0</AssemblyVersion>
         <AssemblyVersion>7.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -190,9 +130,9 @@
     <Member MemberName="TransactionGroup">
       <MemberSignature Language="C#" Value="public string TransactionGroup { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string TransactionGroup" />
-      <MemberSignature Language="DocId" Value="P:Azure.Messaging.ServiceBus.ServiceBusSessionReceiverOptions.TransactionGroup" />
+      <MemberSignature Language="DocId" Value="P:Azure.Messaging.ServiceBus.ServiceBusSenderOptions.TransactionGroup" />
       <MemberSignature Language="VB.NET" Value="Public Property TransactionGroup As String" />
-      <MemberSignature Language="F#" Value="member this.TransactionGroup : string with get, set" Usage="Azure.Messaging.ServiceBus.ServiceBusSessionReceiverOptions.TransactionGroup" />
+      <MemberSignature Language="F#" Value="member this.TransactionGroup : string with get, set" Usage="Azure.Messaging.ServiceBus.ServiceBusSenderOptions.TransactionGroup" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
@@ -203,7 +143,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets the transaction group associated with the receiver. This is an
+            Gets or sets the transaction group associated with the processor. This is an
             arbitrary string that is used to all senders, receivers, and processors that you
             wish to use in a transaction that spans multiple different queues, topics, or subscriptions.
             If your transactions only involves a single queue, topic, or subscription, this property

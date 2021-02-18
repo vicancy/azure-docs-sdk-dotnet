@@ -551,5 +551,29 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="TransactionGroup">
+      <MemberSignature Language="C#" Value="public virtual string TransactionGroup { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TransactionGroup" />
+      <MemberSignature Language="DocId" Value="P:Azure.Messaging.ServiceBus.ServiceBusProcessor.TransactionGroup" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property TransactionGroup As String" />
+      <MemberSignature Language="F#" Value="member this.TransactionGroup : string" Usage="Azure.Messaging.ServiceBus.ServiceBusProcessor.TransactionGroup" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Azure.Messaging.ServiceBus</AssemblyName>
+        <AssemblyVersion>7.2.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the transaction group associated with the processor. This is an
+            arbitrary string that is used to all senders, receivers, and processors that you
+            wish to use in a transaction that spans multiple different queues, topics, or subscriptions.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
   </Members>
 </Type>
