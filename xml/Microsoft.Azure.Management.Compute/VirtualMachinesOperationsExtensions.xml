@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
     <AssemblyVersion>43.0.0.1</AssemblyVersion>
+    <AssemblyVersion>44.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,6 +30,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Models.VirtualMachineAssessPatchesResult</ReturnType>
@@ -65,6 +67,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineAssessPatchesResult&gt;</ReturnType>
@@ -105,6 +108,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Models.VirtualMachineAssessPatchesResult</ReturnType>
@@ -141,6 +145,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineAssessPatchesResult&gt;</ReturnType>
@@ -181,6 +186,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Models.VirtualMachineCaptureResult</ReturnType>
@@ -222,6 +228,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineCaptureResult&gt;</ReturnType>
@@ -267,6 +274,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -303,6 +311,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -344,6 +353,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Models.VirtualMachine</ReturnType>
@@ -385,6 +395,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachine&gt;</ReturnType>
@@ -430,6 +441,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -466,6 +478,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -507,6 +520,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -546,6 +560,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -582,6 +597,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -622,6 +638,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -656,6 +673,90 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="BeginInstallPatches">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesResult BeginInstallPatches (this Microsoft.Azure.Management.Compute.IVirtualMachinesOperations operations, string resourceGroupName, string vmName, Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesParameters installPatchesInput);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesResult BeginInstallPatches(class Microsoft.Azure.Management.Compute.IVirtualMachinesOperations operations, string resourceGroupName, string vmName, class Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesParameters installPatchesInput) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.VirtualMachinesOperationsExtensions.BeginInstallPatches(Microsoft.Azure.Management.Compute.IVirtualMachinesOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginInstallPatches (operations As IVirtualMachinesOperations, resourceGroupName As String, vmName As String, installPatchesInput As VirtualMachineInstallPatchesParameters) As VirtualMachineInstallPatchesResult" />
+      <MemberSignature Language="F#" Value="static member BeginInstallPatches : Microsoft.Azure.Management.Compute.IVirtualMachinesOperations * string * string * Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesParameters -&gt; Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesResult" Usage="Microsoft.Azure.Management.Compute.VirtualMachinesOperationsExtensions.BeginInstallPatches (operations, resourceGroupName, vmName, installPatchesInput)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Compute.IVirtualMachinesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="vmName" Type="System.String" />
+        <Parameter Name="installPatchesInput" Type="Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="vmName">
+            The name of the virtual machine.
+            </param>
+        <param name="installPatchesInput">
+            Input for InstallPatches as directly received by the API
+            </param>
+        <summary>
+            Installs patches on the VM.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginInstallPatchesAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesResult&gt; BeginInstallPatchesAsync (this Microsoft.Azure.Management.Compute.IVirtualMachinesOperations operations, string resourceGroupName, string vmName, Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesParameters installPatchesInput, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesResult&gt; BeginInstallPatchesAsync(class Microsoft.Azure.Management.Compute.IVirtualMachinesOperations operations, string resourceGroupName, string vmName, class Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesParameters installPatchesInput, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.VirtualMachinesOperationsExtensions.BeginInstallPatchesAsync(Microsoft.Azure.Management.Compute.IVirtualMachinesOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesParameters,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginInstallPatchesAsync (operations As IVirtualMachinesOperations, resourceGroupName As String, vmName As String, installPatchesInput As VirtualMachineInstallPatchesParameters, Optional cancellationToken As CancellationToken = Nothing) As Task(Of VirtualMachineInstallPatchesResult)" />
+      <MemberSignature Language="F#" Value="static member BeginInstallPatchesAsync : Microsoft.Azure.Management.Compute.IVirtualMachinesOperations * string * string * Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesParameters * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesResult&gt;" Usage="Microsoft.Azure.Management.Compute.VirtualMachinesOperationsExtensions.BeginInstallPatchesAsync (operations, resourceGroupName, vmName, installPatchesInput, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Compute.IVirtualMachinesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="vmName" Type="System.String" />
+        <Parameter Name="installPatchesInput" Type="Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="vmName">
+            The name of the virtual machine.
+            </param>
+        <param name="installPatchesInput">
+            Input for InstallPatches as directly received by the API
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Installs patches on the VM.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="BeginPerformMaintenance">
       <MemberSignature Language="C#" Value="public static void BeginPerformMaintenance (this Microsoft.Azure.Management.Compute.IVirtualMachinesOperations operations, string resourceGroupName, string vmName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void BeginPerformMaintenance(class Microsoft.Azure.Management.Compute.IVirtualMachinesOperations operations, string resourceGroupName, string vmName) cil managed" />
@@ -666,6 +767,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -701,6 +803,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -741,6 +844,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -784,6 +888,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -832,6 +937,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -867,6 +973,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -907,6 +1014,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -943,6 +1051,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -984,6 +1093,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1026,6 +1136,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1073,6 +1184,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1108,6 +1220,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1148,6 +1261,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Models.RunCommandResult</ReturnType>
@@ -1188,6 +1302,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.RunCommandResult&gt;</ReturnType>
@@ -1232,6 +1347,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1267,6 +1383,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1307,6 +1424,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Models.VirtualMachine</ReturnType>
@@ -1347,6 +1465,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachine&gt;</ReturnType>
@@ -1391,6 +1510,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Models.VirtualMachineCaptureResult</ReturnType>
@@ -1432,6 +1552,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineCaptureResult&gt;</ReturnType>
@@ -1477,6 +1598,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1513,6 +1635,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1554,6 +1677,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Models.VirtualMachine</ReturnType>
@@ -1595,6 +1719,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachine&gt;</ReturnType>
@@ -1640,6 +1765,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1676,6 +1802,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1717,6 +1844,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1756,6 +1884,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1784,6 +1913,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1824,6 +1954,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1868,6 +1999,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1909,6 +2041,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -1955,6 +2088,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Models.VirtualMachine</ReturnType>
@@ -1997,6 +2131,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachine&gt;</ReturnType>
@@ -2033,6 +2168,90 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="InstallPatches">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesResult InstallPatches (this Microsoft.Azure.Management.Compute.IVirtualMachinesOperations operations, string resourceGroupName, string vmName, Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesParameters installPatchesInput);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesResult InstallPatches(class Microsoft.Azure.Management.Compute.IVirtualMachinesOperations operations, string resourceGroupName, string vmName, class Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesParameters installPatchesInput) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.VirtualMachinesOperationsExtensions.InstallPatches(Microsoft.Azure.Management.Compute.IVirtualMachinesOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesParameters)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function InstallPatches (operations As IVirtualMachinesOperations, resourceGroupName As String, vmName As String, installPatchesInput As VirtualMachineInstallPatchesParameters) As VirtualMachineInstallPatchesResult" />
+      <MemberSignature Language="F#" Value="static member InstallPatches : Microsoft.Azure.Management.Compute.IVirtualMachinesOperations * string * string * Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesParameters -&gt; Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesResult" Usage="Microsoft.Azure.Management.Compute.VirtualMachinesOperationsExtensions.InstallPatches (operations, resourceGroupName, vmName, installPatchesInput)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesResult</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Compute.IVirtualMachinesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="vmName" Type="System.String" />
+        <Parameter Name="installPatchesInput" Type="Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesParameters" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="vmName">
+            The name of the virtual machine.
+            </param>
+        <param name="installPatchesInput">
+            Input for InstallPatches as directly received by the API
+            </param>
+        <summary>
+            Installs patches on the VM.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="InstallPatchesAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesResult&gt; InstallPatchesAsync (this Microsoft.Azure.Management.Compute.IVirtualMachinesOperations operations, string resourceGroupName, string vmName, Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesParameters installPatchesInput, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesResult&gt; InstallPatchesAsync(class Microsoft.Azure.Management.Compute.IVirtualMachinesOperations operations, string resourceGroupName, string vmName, class Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesParameters installPatchesInput, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.Compute.VirtualMachinesOperationsExtensions.InstallPatchesAsync(Microsoft.Azure.Management.Compute.IVirtualMachinesOperations,System.String,System.String,Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesParameters,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function InstallPatchesAsync (operations As IVirtualMachinesOperations, resourceGroupName As String, vmName As String, installPatchesInput As VirtualMachineInstallPatchesParameters, Optional cancellationToken As CancellationToken = Nothing) As Task(Of VirtualMachineInstallPatchesResult)" />
+      <MemberSignature Language="F#" Value="static member InstallPatchesAsync : Microsoft.Azure.Management.Compute.IVirtualMachinesOperations * string * string * Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesParameters * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesResult&gt;" Usage="Microsoft.Azure.Management.Compute.VirtualMachinesOperationsExtensions.InstallPatchesAsync (operations, resourceGroupName, vmName, installPatchesInput, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.Compute.IVirtualMachinesOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="vmName" Type="System.String" />
+        <Parameter Name="installPatchesInput" Type="Microsoft.Azure.Management.Compute.Models.VirtualMachineInstallPatchesParameters" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group.
+            </param>
+        <param name="vmName">
+            The name of the virtual machine.
+            </param>
+        <param name="installPatchesInput">
+            Input for InstallPatches as directly received by the API
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Installs patches on the VM.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="InstanceView">
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.Compute.Models.VirtualMachineInstanceView InstanceView (this Microsoft.Azure.Management.Compute.IVirtualMachinesOperations operations, string resourceGroupName, string vmName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.Compute.Models.VirtualMachineInstanceView InstanceView(class Microsoft.Azure.Management.Compute.IVirtualMachinesOperations operations, string resourceGroupName, string vmName) cil managed" />
@@ -2043,6 +2262,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Models.VirtualMachineInstanceView</ReturnType>
@@ -2079,6 +2299,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineInstanceView&gt;</ReturnType>
@@ -2119,6 +2340,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachine&gt;</ReturnType>
@@ -2152,6 +2374,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachine&gt;</ReturnType>
@@ -2186,6 +2409,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachine&gt;&gt;</ReturnType>
@@ -2224,6 +2448,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachine&gt;</ReturnType>
@@ -2257,6 +2482,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachine&gt;&gt;</ReturnType>
@@ -2294,6 +2520,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachine&gt;&gt;</ReturnType>
@@ -2331,6 +2558,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineSize&gt;</ReturnType>
@@ -2368,6 +2596,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachineSize&gt;&gt;</ReturnType>
@@ -2409,6 +2638,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachine&gt;</ReturnType>
@@ -2442,6 +2672,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachine&gt;&gt;</ReturnType>
@@ -2479,6 +2710,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachine&gt;</ReturnType>
@@ -2512,6 +2744,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachine&gt;&gt;</ReturnType>
@@ -2549,6 +2782,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachine&gt;</ReturnType>
@@ -2582,6 +2816,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachine&gt;&gt;</ReturnType>
@@ -2619,6 +2854,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2654,6 +2890,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -2694,6 +2931,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2737,6 +2975,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -2785,6 +3024,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2820,6 +3060,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -2860,6 +3101,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2896,6 +3138,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -2937,6 +3180,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2979,6 +3223,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -3026,6 +3271,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -3061,6 +3307,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -3101,6 +3348,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Models.RetrieveBootDiagnosticsDataResult</ReturnType>
@@ -3144,6 +3392,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.RetrieveBootDiagnosticsDataResult&gt;</ReturnType>
@@ -3191,6 +3440,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Models.RunCommandResult</ReturnType>
@@ -3231,6 +3481,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.RunCommandResult&gt;</ReturnType>
@@ -3275,6 +3526,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -3310,6 +3562,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -3350,6 +3603,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -3385,6 +3639,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -3425,6 +3680,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.Compute.Models.VirtualMachine</ReturnType>
@@ -3465,6 +3721,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.Compute.Models.VirtualMachine&gt;</ReturnType>

@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Storage</AssemblyName>
     <AssemblyVersion>18.0.0.0</AssemblyVersion>
+    <AssemblyVersion>19.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -34,6 +35,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Storage</AssemblyName>
         <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -45,6 +47,31 @@
         <ReturnType>Microsoft.Azure.Management.Storage.Models.ListSharesExpand</ReturnType>
       </ReturnValue>
       <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Snapshots">
+      <MemberSignature Language="C#" Value="Snapshots" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Azure.Management.Storage.Models.ListSharesExpand Snapshots = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Azure.Management.Storage.Models.ListSharesExpand.Snapshots" />
+      <MemberSignature Language="VB.NET" Value="Snapshots" />
+      <MemberSignature Language="F#" Value="Snapshots = 1" Usage="Microsoft.Azure.Management.Storage.Models.ListSharesExpand.Snapshots" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.Storage</AssemblyName>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.Serialization.EnumMember(Value="snapshots")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Serialization.EnumMember(Value="snapshots")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.Storage.Models.ListSharesExpand</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>

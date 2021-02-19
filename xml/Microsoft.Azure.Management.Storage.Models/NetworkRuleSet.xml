@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Storage</AssemblyName>
     <AssemblyVersion>18.0.0.0</AssemblyVersion>
+    <AssemblyVersion>19.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,6 +29,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Storage</AssemblyName>
         <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -47,6 +49,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Storage</AssemblyName>
         <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="defaultAction" Type="Microsoft.Azure.Management.Storage.Models.DefaultAction" />
@@ -56,7 +59,6 @@
         <Parameter Name="ipRules" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Storage.Models.IPRule&gt;" />
       </Parameters>
       <Docs>
-        <param name="resourceAccessRules">To be added.</param>
         <param name="defaultAction">Specifies the default action of allow
             or deny when no other rules match. Possible values include:
             'Allow', 'Deny'</param>
@@ -65,6 +67,8 @@
             of Logging|Metrics|AzureServices (For example, "Logging, Metrics"),
             or None to bypass none of those traffics. Possible values include:
             'None', 'Logging', 'Metrics', 'AzureServices'</param>
+        <param name="resourceAccessRules">Sets the resource access
+            rules</param>
         <param name="virtualNetworkRules">Sets the virtual network
             rules</param>
         <param name="ipRules">Sets the IP ACL rules</param>
@@ -84,6 +88,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Storage</AssemblyName>
         <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -116,6 +121,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Storage</AssemblyName>
         <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -145,6 +151,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Storage</AssemblyName>
         <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -173,6 +180,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Storage</AssemblyName>
         <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -184,7 +192,9 @@
         <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.Storage.Models.ResourceAccessRule&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary />
+        <summary>
+            Gets or sets sets the resource access rules
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -199,6 +209,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Storage</AssemblyName>
         <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -224,6 +235,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Storage</AssemblyName>
         <AssemblyVersion>18.0.0.0</AssemblyVersion>
+        <AssemblyVersion>19.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

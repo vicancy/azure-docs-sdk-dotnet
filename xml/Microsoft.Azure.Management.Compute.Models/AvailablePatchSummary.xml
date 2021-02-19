@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
     <AssemblyVersion>43.0.0.1</AssemblyVersion>
+    <AssemblyVersion>44.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,6 +30,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -48,6 +50,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="status" Type="System.String" />
@@ -62,9 +65,10 @@
       <Docs>
         <param name="status">The overall success or failure status of the
             operation. It remains "InProgress" until the operation completes.
-            At that point it will become "Failed", "Succeeded", or
-            "CompletedWithWarnings.". Possible values include: 'InProgress',
-            'Failed', 'Succeeded', 'CompletedWithWarnings'</param>
+            At that point it will become "Unknown", "Failed", "Succeeded", or
+            "CompletedWithWarnings.". Possible values include: 'Unknown',
+            'InProgress', 'Failed', 'Succeeded',
+            'CompletedWithWarnings'</param>
         <param name="assessmentActivityId">The activity ID of the operation
             that produced this result. It is used to correlate across CRP and
             extension logs.</param>
@@ -99,6 +103,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -128,6 +133,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -157,6 +163,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -186,6 +193,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -214,6 +222,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -243,6 +252,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -273,6 +283,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -301,6 +312,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.Compute</AssemblyName>
         <AssemblyVersion>43.0.0.1</AssemblyVersion>
+        <AssemblyVersion>44.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -315,9 +327,9 @@
         <summary>
             Gets the overall success or failure status of the operation. It
             remains "InProgress" until the operation completes. At that point
-            it will become "Failed", "Succeeded", or "CompletedWithWarnings.".
-            Possible values include: 'InProgress', 'Failed', 'Succeeded',
-            'CompletedWithWarnings'
+            it will become "Unknown", "Failed", "Succeeded", or
+            "CompletedWithWarnings.". Possible values include: 'Unknown',
+            'InProgress', 'Failed', 'Succeeded', 'CompletedWithWarnings'
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
