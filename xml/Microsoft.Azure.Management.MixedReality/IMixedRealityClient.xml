@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.MixedReality</AssemblyName>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -30,6 +31,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.MixedReality</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -37,6 +39,28 @@
       <Docs>
         <summary>
             The preferred language for the response.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApiVersion">
+      <MemberSignature Language="C#" Value="public string ApiVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApiVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MixedReality.IMixedRealityClient.ApiVersion" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApiVersion As String" />
+      <MemberSignature Language="F#" Value="member this.ApiVersion : string" Usage="Microsoft.Azure.Management.MixedReality.IMixedRealityClient.ApiVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.MixedReality</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The API version to be used with the HTTP request.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -52,6 +76,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.MixedReality</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Uri</ReturnType>
@@ -74,6 +99,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.MixedReality</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.AzureOperationResponse&lt;Microsoft.Azure.Management.MixedReality.Models.CheckNameAvailabilityResponse&gt;&gt;</ReturnType>
@@ -114,6 +140,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.MixedReality</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.ServiceClientCredentials</ReturnType>
@@ -136,6 +163,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.MixedReality</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Newtonsoft.Json.JsonSerializerSettings</ReturnType>
@@ -158,6 +186,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.MixedReality</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -182,6 +211,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.MixedReality</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -190,6 +220,28 @@
         <summary>
             The retry timeout in seconds for Long Running Operations. Default
             value is 30.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ObjectAnchorsAccounts">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.MixedReality.IObjectAnchorsAccountsOperations ObjectAnchorsAccounts { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.MixedReality.IObjectAnchorsAccountsOperations ObjectAnchorsAccounts" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.MixedReality.IMixedRealityClient.ObjectAnchorsAccounts" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ObjectAnchorsAccounts As IObjectAnchorsAccountsOperations" />
+      <MemberSignature Language="F#" Value="member this.ObjectAnchorsAccounts : Microsoft.Azure.Management.MixedReality.IObjectAnchorsAccountsOperations" Usage="Microsoft.Azure.Management.MixedReality.IMixedRealityClient.ObjectAnchorsAccounts" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.MixedReality</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.MixedReality.IObjectAnchorsAccountsOperations</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the IObjectAnchorsAccountsOperations.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -205,6 +257,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.MixedReality</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.MixedReality.IOperations</ReturnType>
@@ -227,6 +280,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.MixedReality</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.MixedReality.IRemoteRenderingAccountsOperations</ReturnType>
@@ -249,6 +303,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.MixedReality</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Newtonsoft.Json.JsonSerializerSettings</ReturnType>
@@ -271,6 +326,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.MixedReality</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.MixedReality.ISpatialAnchorsAccountsOperations</ReturnType>
@@ -293,6 +349,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.MixedReality</AssemblyName>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
