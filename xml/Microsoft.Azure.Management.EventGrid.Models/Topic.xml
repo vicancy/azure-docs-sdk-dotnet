@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.Management.EventGrid.Models.TrackedResource</BaseTypeName>
@@ -34,6 +35,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -44,15 +46,15 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public Topic (string location, string id = default, string name = default, string type = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.EventGrid.Models.PrivateEndpointConnection&gt; privateEndpointConnections = default, string provisioningState = default, string endpoint = default, string inputSchema = default, Microsoft.Azure.Management.EventGrid.Models.InputSchemaMapping inputSchemaMapping = default, string metricResourceId = default, string publicNetworkAccess = default, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.EventGrid.Models.InboundIpRule&gt; inboundIpRules = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string location, string id, string name, string type, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.EventGrid.Models.PrivateEndpointConnection&gt; privateEndpointConnections, string provisioningState, string endpoint, string inputSchema, class Microsoft.Azure.Management.EventGrid.Models.InputSchemaMapping inputSchemaMapping, string metricResourceId, string publicNetworkAccess, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.EventGrid.Models.InboundIpRule&gt; inboundIpRules) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.EventGrid.Models.Topic.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IList{Microsoft.Azure.Management.EventGrid.Models.PrivateEndpointConnection},System.String,System.String,System.String,Microsoft.Azure.Management.EventGrid.Models.InputSchemaMapping,System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.EventGrid.Models.InboundIpRule})" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (location As String, Optional id As String = Nothing, Optional name As String = Nothing, Optional type As String = Nothing, Optional tags As IDictionary(Of String, String) = Nothing, Optional privateEndpointConnections As IList(Of PrivateEndpointConnection) = Nothing, Optional provisioningState As String = Nothing, Optional endpoint As String = Nothing, Optional inputSchema As String = Nothing, Optional inputSchemaMapping As InputSchemaMapping = Nothing, Optional metricResourceId As String = Nothing, Optional publicNetworkAccess As String = Nothing, Optional inboundIpRules As IList(Of InboundIpRule) = Nothing)" />
-      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.EventGrid.Models.Topic : string * string * string * string * System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.EventGrid.Models.PrivateEndpointConnection&gt; * string * string * string * Microsoft.Azure.Management.EventGrid.Models.InputSchemaMapping * string * string * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.EventGrid.Models.InboundIpRule&gt; -&gt; Microsoft.Azure.Management.EventGrid.Models.Topic" Usage="new Microsoft.Azure.Management.EventGrid.Models.Topic (location, id, name, type, tags, privateEndpointConnections, provisioningState, endpoint, inputSchema, inputSchemaMapping, metricResourceId, publicNetworkAccess, inboundIpRules)" />
+      <MemberSignature Language="C#" Value="public Topic (string location, string id = default, string name = default, string type = default, System.Collections.Generic.IDictionary&lt;string,string&gt; tags = default, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.EventGrid.Models.PrivateEndpointConnection&gt; privateEndpointConnections = default, string provisioningState = default, string endpoint = default, string inputSchema = default, Microsoft.Azure.Management.EventGrid.Models.InputSchemaMapping inputSchemaMapping = default, string metricResourceId = default, string publicNetworkAccess = default, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.EventGrid.Models.InboundIpRule&gt; inboundIpRules = default, Microsoft.Azure.Management.EventGrid.Models.ResourceSku sku = default, Microsoft.Azure.Management.EventGrid.Models.IdentityInfo identity = default, string kind = default, Microsoft.Azure.Management.EventGrid.Models.ExtendedLocation extendedLocation = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string location, string id, string name, string type, class System.Collections.Generic.IDictionary`2&lt;string, string&gt; tags, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.EventGrid.Models.PrivateEndpointConnection&gt; privateEndpointConnections, string provisioningState, string endpoint, string inputSchema, class Microsoft.Azure.Management.EventGrid.Models.InputSchemaMapping inputSchemaMapping, string metricResourceId, string publicNetworkAccess, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.EventGrid.Models.InboundIpRule&gt; inboundIpRules, class Microsoft.Azure.Management.EventGrid.Models.ResourceSku sku, class Microsoft.Azure.Management.EventGrid.Models.IdentityInfo identity, string kind, class Microsoft.Azure.Management.EventGrid.Models.ExtendedLocation extendedLocation) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.EventGrid.Models.Topic.#ctor(System.String,System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.Collections.Generic.IList{Microsoft.Azure.Management.EventGrid.Models.PrivateEndpointConnection},System.String,System.String,System.String,Microsoft.Azure.Management.EventGrid.Models.InputSchemaMapping,System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.EventGrid.Models.InboundIpRule},Microsoft.Azure.Management.EventGrid.Models.ResourceSku,Microsoft.Azure.Management.EventGrid.Models.IdentityInfo,System.String,Microsoft.Azure.Management.EventGrid.Models.ExtendedLocation)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (location As String, Optional id As String = Nothing, Optional name As String = Nothing, Optional type As String = Nothing, Optional tags As IDictionary(Of String, String) = Nothing, Optional privateEndpointConnections As IList(Of PrivateEndpointConnection) = Nothing, Optional provisioningState As String = Nothing, Optional endpoint As String = Nothing, Optional inputSchema As String = Nothing, Optional inputSchemaMapping As InputSchemaMapping = Nothing, Optional metricResourceId As String = Nothing, Optional publicNetworkAccess As String = Nothing, Optional inboundIpRules As IList(Of InboundIpRule) = Nothing, Optional sku As ResourceSku = Nothing, Optional identity As IdentityInfo = Nothing, Optional kind As String = Nothing, Optional extendedLocation As ExtendedLocation = Nothing)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.EventGrid.Models.Topic : string * string * string * string * System.Collections.Generic.IDictionary&lt;string, string&gt; * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.EventGrid.Models.PrivateEndpointConnection&gt; * string * string * string * Microsoft.Azure.Management.EventGrid.Models.InputSchemaMapping * string * string * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.EventGrid.Models.InboundIpRule&gt; * Microsoft.Azure.Management.EventGrid.Models.ResourceSku * Microsoft.Azure.Management.EventGrid.Models.IdentityInfo * string * Microsoft.Azure.Management.EventGrid.Models.ExtendedLocation -&gt; Microsoft.Azure.Management.EventGrid.Models.Topic" Usage="new Microsoft.Azure.Management.EventGrid.Models.Topic (location, id, name, type, tags, privateEndpointConnections, provisioningState, endpoint, inputSchema, inputSchemaMapping, metricResourceId, publicNetworkAccess, inboundIpRules, sku, identity, kind, extendedLocation)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="location" Type="System.String" />
@@ -68,6 +70,10 @@
         <Parameter Name="metricResourceId" Type="System.String" />
         <Parameter Name="publicNetworkAccess" Type="System.String" />
         <Parameter Name="inboundIpRules" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.EventGrid.Models.InboundIpRule&gt;" />
+        <Parameter Name="sku" Type="Microsoft.Azure.Management.EventGrid.Models.ResourceSku" />
+        <Parameter Name="identity" Type="Microsoft.Azure.Management.EventGrid.Models.IdentityInfo" />
+        <Parameter Name="kind" Type="System.String" />
+        <Parameter Name="extendedLocation" Type="Microsoft.Azure.Management.EventGrid.Models.ExtendedLocation" />
       </Parameters>
       <Docs>
         <param name="privateEndpointConnections">To be added.</param>
@@ -99,6 +105,13 @@
         <param name="inboundIpRules">This can be used to restrict traffic
             from specific IPs instead of all IPs. Note: These are considered
             only if PublicNetworkAccess is enabled.</param>
+        <param name="sku">The Sku pricing tier for the topic.</param>
+        <param name="identity">Identity information for the
+            resource.</param>
+        <param name="kind">Kind of the resource. Possible values include:
+            'Azure', 'AzureArc'</param>
+        <param name="extendedLocation">Extended location of the
+            resource.</param>
         <summary>
             Initializes a new instance of the Topic class.
             </summary>
@@ -115,6 +128,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -133,6 +147,62 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="ExtendedLocation">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.EventGrid.Models.ExtendedLocation ExtendedLocation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.EventGrid.Models.ExtendedLocation ExtendedLocation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.EventGrid.Models.Topic.ExtendedLocation" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtendedLocation As ExtendedLocation" />
+      <MemberSignature Language="F#" Value="member this.ExtendedLocation : Microsoft.Azure.Management.EventGrid.Models.ExtendedLocation with get, set" Usage="Microsoft.Azure.Management.EventGrid.Models.Topic.ExtendedLocation" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[Newtonsoft.Json.JsonProperty(PropertyName="extendedLocation")]</AttributeName>
+          <AttributeName Language="F#">[&lt;Newtonsoft.Json.JsonProperty(PropertyName="extendedLocation")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.EventGrid.Models.ExtendedLocation</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets extended location of the resource.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Identity">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.EventGrid.Models.IdentityInfo Identity { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.EventGrid.Models.IdentityInfo Identity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.EventGrid.Models.Topic.Identity" />
+      <MemberSignature Language="VB.NET" Value="Public Property Identity As IdentityInfo" />
+      <MemberSignature Language="F#" Value="member this.Identity : Microsoft.Azure.Management.EventGrid.Models.IdentityInfo with get, set" Usage="Microsoft.Azure.Management.EventGrid.Models.Topic.Identity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[Newtonsoft.Json.JsonProperty(PropertyName="identity")]</AttributeName>
+          <AttributeName Language="F#">[&lt;Newtonsoft.Json.JsonProperty(PropertyName="identity")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.EventGrid.Models.IdentityInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets identity information for the resource.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="InboundIpRules">
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.EventGrid.Models.InboundIpRule&gt; InboundIpRules { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.EventGrid.Models.InboundIpRule&gt; InboundIpRules" />
@@ -143,6 +213,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -173,6 +244,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -204,6 +276,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -225,6 +298,35 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="Kind">
+      <MemberSignature Language="C#" Value="public string Kind { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Kind" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.EventGrid.Models.Topic.Kind" />
+      <MemberSignature Language="VB.NET" Value="Public Property Kind As String" />
+      <MemberSignature Language="F#" Value="member this.Kind : string with get, set" Usage="Microsoft.Azure.Management.EventGrid.Models.Topic.Kind" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[Newtonsoft.Json.JsonProperty(PropertyName="kind")]</AttributeName>
+          <AttributeName Language="F#">[&lt;Newtonsoft.Json.JsonProperty(PropertyName="kind")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets kind of the resource. Possible values include:
+            'Azure', 'AzureArc'
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="MetricResourceId">
       <MemberSignature Language="C#" Value="public string MetricResourceId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string MetricResourceId" />
@@ -235,6 +337,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -263,6 +366,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -289,6 +393,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -319,6 +424,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -342,6 +448,34 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="Sku">
+      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.EventGrid.Models.ResourceSku Sku { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.EventGrid.Models.ResourceSku Sku" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.EventGrid.Models.Topic.Sku" />
+      <MemberSignature Language="VB.NET" Value="Public Property Sku As ResourceSku" />
+      <MemberSignature Language="F#" Value="member this.Sku : Microsoft.Azure.Management.EventGrid.Models.ResourceSku with get, set" Usage="Microsoft.Azure.Management.EventGrid.Models.Topic.Sku" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[Newtonsoft.Json.JsonProperty(PropertyName="sku")]</AttributeName>
+          <AttributeName Language="F#">[&lt;Newtonsoft.Json.JsonProperty(PropertyName="sku")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.EventGrid.Models.ResourceSku</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets the Sku pricing tier for the topic.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Validate">
       <MemberSignature Language="C#" Value="public override void Validate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Validate() cil managed" />
@@ -352,6 +486,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

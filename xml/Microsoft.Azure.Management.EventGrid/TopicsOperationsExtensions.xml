@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,6 +30,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.EventGrid.Models.Topic</ReturnType>
@@ -71,6 +73,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.EventGrid.Models.Topic&gt;</ReturnType>
@@ -117,6 +120,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -154,6 +158,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -186,6 +191,94 @@
             </remarks>
       </Docs>
     </Member>
+    <Member MemberName="BeginRegenerateKey">
+      <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.EventGrid.Models.TopicSharedAccessKeys BeginRegenerateKey (this Microsoft.Azure.Management.EventGrid.ITopicsOperations operations, string resourceGroupName, string topicName, string keyName);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.EventGrid.Models.TopicSharedAccessKeys BeginRegenerateKey(class Microsoft.Azure.Management.EventGrid.ITopicsOperations operations, string resourceGroupName, string topicName, string keyName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.EventGrid.TopicsOperationsExtensions.BeginRegenerateKey(Microsoft.Azure.Management.EventGrid.ITopicsOperations,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginRegenerateKey (operations As ITopicsOperations, resourceGroupName As String, topicName As String, keyName As String) As TopicSharedAccessKeys" />
+      <MemberSignature Language="F#" Value="static member BeginRegenerateKey : Microsoft.Azure.Management.EventGrid.ITopicsOperations * string * string * string -&gt; Microsoft.Azure.Management.EventGrid.Models.TopicSharedAccessKeys" Usage="Microsoft.Azure.Management.EventGrid.TopicsOperationsExtensions.BeginRegenerateKey (operations, resourceGroupName, topicName, keyName)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Azure.Management.EventGrid.Models.TopicSharedAccessKeys</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.EventGrid.ITopicsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="topicName" Type="System.String" />
+        <Parameter Name="keyName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group within the user's subscription.
+            </param>
+        <param name="topicName">
+            Name of the topic.
+            </param>
+        <param name="keyName">
+            Key name to regenerate key1 or key2
+            </param>
+        <summary>
+            Regenerate key for a topic.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Regenerate a shared access key for a topic.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BeginRegenerateKeyAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.EventGrid.Models.TopicSharedAccessKeys&gt; BeginRegenerateKeyAsync (this Microsoft.Azure.Management.EventGrid.ITopicsOperations operations, string resourceGroupName, string topicName, string keyName, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.Management.EventGrid.Models.TopicSharedAccessKeys&gt; BeginRegenerateKeyAsync(class Microsoft.Azure.Management.EventGrid.ITopicsOperations operations, string resourceGroupName, string topicName, string keyName, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.EventGrid.TopicsOperationsExtensions.BeginRegenerateKeyAsync(Microsoft.Azure.Management.EventGrid.ITopicsOperations,System.String,System.String,System.String,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BeginRegenerateKeyAsync (operations As ITopicsOperations, resourceGroupName As String, topicName As String, keyName As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of TopicSharedAccessKeys)" />
+      <MemberSignature Language="F#" Value="static member BeginRegenerateKeyAsync : Microsoft.Azure.Management.EventGrid.ITopicsOperations * string * string * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.EventGrid.Models.TopicSharedAccessKeys&gt;" Usage="Microsoft.Azure.Management.EventGrid.TopicsOperationsExtensions.BeginRegenerateKeyAsync (operations, resourceGroupName, topicName, keyName, cancellationToken)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.EventGrid.Models.TopicSharedAccessKeys&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="operations" Type="Microsoft.Azure.Management.EventGrid.ITopicsOperations" RefType="this" />
+        <Parameter Name="resourceGroupName" Type="System.String" />
+        <Parameter Name="topicName" Type="System.String" />
+        <Parameter Name="keyName" Type="System.String" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+      </Parameters>
+      <Docs>
+        <param name="operations">
+            The operations group for this extension method.
+            </param>
+        <param name="resourceGroupName">
+            The name of the resource group within the user's subscription.
+            </param>
+        <param name="topicName">
+            Name of the topic.
+            </param>
+        <param name="keyName">
+            Key name to regenerate key1 or key2
+            </param>
+        <param name="cancellationToken">
+            The cancellation token.
+            </param>
+        <summary>
+            Regenerate key for a topic.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>
+            Regenerate a shared access key for a topic.
+            </remarks>
+      </Docs>
+    </Member>
     <Member MemberName="BeginUpdate">
       <MemberSignature Language="C#" Value="public static Microsoft.Azure.Management.EventGrid.Models.Topic BeginUpdate (this Microsoft.Azure.Management.EventGrid.ITopicsOperations operations, string resourceGroupName, string topicName, Microsoft.Azure.Management.EventGrid.Models.TopicUpdateParameters topicUpdateParameters);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.Azure.Management.EventGrid.Models.Topic BeginUpdate(class Microsoft.Azure.Management.EventGrid.ITopicsOperations operations, string resourceGroupName, string topicName, class Microsoft.Azure.Management.EventGrid.Models.TopicUpdateParameters topicUpdateParameters) cil managed" />
@@ -196,6 +289,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.EventGrid.Models.Topic</ReturnType>
@@ -238,6 +332,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.EventGrid.Models.Topic&gt;</ReturnType>
@@ -284,6 +379,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.EventGrid.Models.Topic</ReturnType>
@@ -326,6 +422,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.EventGrid.Models.Topic&gt;</ReturnType>
@@ -372,6 +469,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -409,6 +507,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -451,6 +550,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.EventGrid.Models.Topic</ReturnType>
@@ -489,6 +589,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.EventGrid.Models.Topic&gt;</ReturnType>
@@ -531,6 +632,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.EventGrid.Models.Topic&gt;</ReturnType>
@@ -581,6 +683,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.EventGrid.Models.Topic&gt;&gt;</ReturnType>
@@ -635,6 +738,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.EventGrid.Models.Topic&gt;</ReturnType>
@@ -669,6 +773,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.EventGrid.Models.Topic&gt;&gt;</ReturnType>
@@ -707,6 +812,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.EventGrid.Models.Topic&gt;</ReturnType>
@@ -753,6 +859,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.EventGrid.Models.Topic&gt;&gt;</ReturnType>
@@ -803,6 +910,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.EventGrid.Models.Topic&gt;</ReturnType>
@@ -837,6 +945,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Rest.Azure.IPage&lt;Microsoft.Azure.Management.EventGrid.Models.Topic&gt;&gt;</ReturnType>
@@ -875,6 +984,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.EventGrid.Models.EventType&gt;</ReturnType>
@@ -921,6 +1031,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.IEnumerable&lt;Microsoft.Azure.Management.EventGrid.Models.EventType&gt;&gt;</ReturnType>
@@ -971,6 +1082,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.EventGrid.Models.TopicSharedAccessKeys</ReturnType>
@@ -1009,6 +1121,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.EventGrid.Models.TopicSharedAccessKeys&gt;</ReturnType>
@@ -1051,6 +1164,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.EventGrid.Models.TopicSharedAccessKeys</ReturnType>
@@ -1093,6 +1207,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.EventGrid.Models.TopicSharedAccessKeys&gt;</ReturnType>
@@ -1139,6 +1254,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Azure.Management.EventGrid.Models.Topic</ReturnType>
@@ -1181,6 +1297,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.Azure.Management.EventGrid.Models.Topic&gt;</ReturnType>

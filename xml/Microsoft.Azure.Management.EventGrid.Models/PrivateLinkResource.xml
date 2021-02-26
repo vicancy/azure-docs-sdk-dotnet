@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -34,6 +35,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -53,6 +55,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="groupId" Type="System.String" />
@@ -70,8 +73,8 @@
         <param name="requiredZoneNames">To be added.</param>
         <param name="id">Fully qualified identifier of the
             resource.</param>
-        <param name="name">Name of the resource</param>
-        <param name="type">Type of the resource</param>
+        <param name="name">Name of the resource.</param>
+        <param name="type">Type of the resource.</param>
         <summary>
             Initializes a new instance of the PrivateLinkResource class.
             </summary>
@@ -88,6 +91,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -114,6 +118,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -140,6 +145,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -168,6 +174,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -180,7 +187,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets name of the resource
+            Gets or sets name of the resource.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -196,6 +203,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -222,6 +230,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -248,6 +257,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -260,7 +270,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets type of the resource
+            Gets or sets type of the resource.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

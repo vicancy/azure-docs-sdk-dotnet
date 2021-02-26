@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.Azure.Management.EventGrid.Models.EventSubscriptionDestination</BaseTypeName>
@@ -39,6 +40,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,20 +52,21 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public AzureFunctionEventSubscriptionDestination (string resourceId = default, int? maxEventsPerBatch = default, int? preferredBatchSizeInKilobytes = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string resourceId, valuetype System.Nullable`1&lt;int32&gt; maxEventsPerBatch, valuetype System.Nullable`1&lt;int32&gt; preferredBatchSizeInKilobytes) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.EventGrid.Models.AzureFunctionEventSubscriptionDestination.#ctor(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional resourceId As String = Nothing, Optional maxEventsPerBatch As Nullable(Of Integer) = Nothing, Optional preferredBatchSizeInKilobytes As Nullable(Of Integer) = Nothing)" />
-      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.EventGrid.Models.AzureFunctionEventSubscriptionDestination : string * Nullable&lt;int&gt; * Nullable&lt;int&gt; -&gt; Microsoft.Azure.Management.EventGrid.Models.AzureFunctionEventSubscriptionDestination" Usage="new Microsoft.Azure.Management.EventGrid.Models.AzureFunctionEventSubscriptionDestination (resourceId, maxEventsPerBatch, preferredBatchSizeInKilobytes)" />
+      <MemberSignature Language="C#" Value="public AzureFunctionEventSubscriptionDestination (string resourceId = default, int? maxEventsPerBatch = default, int? preferredBatchSizeInKilobytes = default, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.EventGrid.Models.DeliveryAttributeMapping&gt; deliveryAttributeMappings = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string resourceId, valuetype System.Nullable`1&lt;int32&gt; maxEventsPerBatch, valuetype System.Nullable`1&lt;int32&gt; preferredBatchSizeInKilobytes, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.EventGrid.Models.DeliveryAttributeMapping&gt; deliveryAttributeMappings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.EventGrid.Models.AzureFunctionEventSubscriptionDestination.#ctor(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Collections.Generic.IList{Microsoft.Azure.Management.EventGrid.Models.DeliveryAttributeMapping})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional resourceId As String = Nothing, Optional maxEventsPerBatch As Nullable(Of Integer) = Nothing, Optional preferredBatchSizeInKilobytes As Nullable(Of Integer) = Nothing, Optional deliveryAttributeMappings As IList(Of DeliveryAttributeMapping) = Nothing)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.EventGrid.Models.AzureFunctionEventSubscriptionDestination : string * Nullable&lt;int&gt; * Nullable&lt;int&gt; * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.EventGrid.Models.DeliveryAttributeMapping&gt; -&gt; Microsoft.Azure.Management.EventGrid.Models.AzureFunctionEventSubscriptionDestination" Usage="new Microsoft.Azure.Management.EventGrid.Models.AzureFunctionEventSubscriptionDestination (resourceId, maxEventsPerBatch, preferredBatchSizeInKilobytes, deliveryAttributeMappings)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="resourceId" Type="System.String" />
         <Parameter Name="maxEventsPerBatch" Type="System.Nullable&lt;System.Int32&gt;" />
         <Parameter Name="preferredBatchSizeInKilobytes" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="deliveryAttributeMappings" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.EventGrid.Models.DeliveryAttributeMapping&gt;" />
       </Parameters>
       <Docs>
         <param name="resourceId">The Azure Resource Id that represents the
@@ -73,10 +76,40 @@
             batch.</param>
         <param name="preferredBatchSizeInKilobytes">Preferred batch size in
             Kilobytes.</param>
+        <param name="deliveryAttributeMappings">Delivery attribute
+            details.</param>
         <summary>
             Initializes a new instance of the
             AzureFunctionEventSubscriptionDestination class.
             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeliveryAttributeMappings">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.EventGrid.Models.DeliveryAttributeMapping&gt; DeliveryAttributeMappings { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.EventGrid.Models.DeliveryAttributeMapping&gt; DeliveryAttributeMappings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.EventGrid.Models.AzureFunctionEventSubscriptionDestination.DeliveryAttributeMappings" />
+      <MemberSignature Language="VB.NET" Value="Public Property DeliveryAttributeMappings As IList(Of DeliveryAttributeMapping)" />
+      <MemberSignature Language="F#" Value="member this.DeliveryAttributeMappings : System.Collections.Generic.IList&lt;Microsoft.Azure.Management.EventGrid.Models.DeliveryAttributeMapping&gt; with get, set" Usage="Microsoft.Azure.Management.EventGrid.Models.AzureFunctionEventSubscriptionDestination.DeliveryAttributeMappings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[Newtonsoft.Json.JsonProperty(PropertyName="properties.deliveryAttributeMappings")]</AttributeName>
+          <AttributeName Language="F#">[&lt;Newtonsoft.Json.JsonProperty(PropertyName="properties.deliveryAttributeMappings")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.EventGrid.Models.DeliveryAttributeMapping&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets delivery attribute details.
+            </summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -90,6 +123,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -118,6 +152,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -146,6 +181,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.EventGrid</AssemblyName>
         <AssemblyVersion>6.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>

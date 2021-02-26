@@ -86,11 +86,11 @@
       </Docs>
     </Member>
     <Member MemberName="DeleteAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.Models.OperationStatus&gt; DeleteAsync (this Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.IExamples operations, Guid appId, string versionId, int exampleId, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.Models.OperationStatus&gt; DeleteAsync(class Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.IExamples operations, valuetype System.Guid appId, string versionId, int32 exampleId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.ExamplesExtensions.DeleteAsync(Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.IExamples,System.Guid,System.String,System.Int32,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DeleteAsync (operations As IExamples, appId As Guid, versionId As String, exampleId As Integer, Optional cancellationToken As CancellationToken = Nothing) As Task(Of OperationStatus)" />
-      <MemberSignature Language="F#" Value="static member DeleteAsync : Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.IExamples * Guid * string * int * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.Models.OperationStatus&gt;" Usage="Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.ExamplesExtensions.DeleteAsync (operations, appId, versionId, exampleId, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.Models.OperationStatus&gt; DeleteAsync (this Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.IExamples operations, Guid appId, string versionId, long exampleId, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.Models.OperationStatus&gt; DeleteAsync(class Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.IExamples operations, valuetype System.Guid appId, string versionId, int64 exampleId, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.ExamplesExtensions.DeleteAsync(Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.IExamples,System.Guid,System.String,System.Int64,System.Threading.CancellationToken)" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function DeleteAsync (operations As IExamples, appId As Guid, versionId As String, exampleId As Long, Optional cancellationToken As CancellationToken = Nothing) As Task(Of OperationStatus)" />
+      <MemberSignature Language="F#" Value="static member DeleteAsync : Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.IExamples * Guid * string * int64 * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.Models.OperationStatus&gt;" Usage="Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.ExamplesExtensions.DeleteAsync (operations, appId, versionId, exampleId, cancellationToken)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring</AssemblyName>
@@ -103,7 +103,7 @@
         <Parameter Name="operations" Type="Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.IExamples" RefType="this" />
         <Parameter Name="appId" Type="System.Guid" />
         <Parameter Name="versionId" Type="System.String" />
-        <Parameter Name="exampleId" Type="System.Int32" />
+        <Parameter Name="exampleId" Type="System.Int64" />
         <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
       </Parameters>
       <Docs>

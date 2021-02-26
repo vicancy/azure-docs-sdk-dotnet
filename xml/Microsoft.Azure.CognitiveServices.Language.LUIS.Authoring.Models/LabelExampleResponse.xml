@@ -34,11 +34,11 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public LabelExampleResponse (string utteranceText = default, int? exampleId = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string utteranceText, valuetype System.Nullable`1&lt;int32&gt; exampleId) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.Models.LabelExampleResponse.#ctor(System.String,System.Nullable{System.Int32})" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional utteranceText As String = Nothing, Optional exampleId As Nullable(Of Integer) = Nothing)" />
-      <MemberSignature Language="F#" Value="new Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.Models.LabelExampleResponse : string * Nullable&lt;int&gt; -&gt; Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.Models.LabelExampleResponse" Usage="new Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.Models.LabelExampleResponse (utteranceText, exampleId)" />
+      <MemberSignature Language="C#" Value="public LabelExampleResponse (string utteranceText = default, long? exampleId = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string utteranceText, valuetype System.Nullable`1&lt;int64&gt; exampleId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.Models.LabelExampleResponse.#ctor(System.String,System.Nullable{System.Int64})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional utteranceText As String = Nothing, Optional exampleId As Nullable(Of Long) = Nothing)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.Models.LabelExampleResponse : string * Nullable&lt;int64&gt; -&gt; Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.Models.LabelExampleResponse" Usage="new Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.Models.LabelExampleResponse (utteranceText, exampleId)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring</AssemblyName>
@@ -46,7 +46,7 @@
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="utteranceText" Type="System.String" />
-        <Parameter Name="exampleId" Type="System.Nullable&lt;System.Int32&gt;" />
+        <Parameter Name="exampleId" Type="System.Nullable&lt;System.Int64&gt;" />
       </Parameters>
       <Docs>
         <param name="utteranceText">To be added.</param>
@@ -56,11 +56,11 @@
       </Docs>
     </Member>
     <Member MemberName="ExampleId">
-      <MemberSignature Language="C#" Value="public int? ExampleId { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int32&gt; ExampleId" />
+      <MemberSignature Language="C#" Value="public long? ExampleId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;int64&gt; ExampleId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.Models.LabelExampleResponse.ExampleId" />
-      <MemberSignature Language="VB.NET" Value="Public Property ExampleId As Nullable(Of Integer)" />
-      <MemberSignature Language="F#" Value="member this.ExampleId : Nullable&lt;int&gt; with get, set" Usage="Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.Models.LabelExampleResponse.ExampleId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExampleId As Nullable(Of Long)" />
+      <MemberSignature Language="F#" Value="member this.ExampleId : Nullable&lt;int64&gt; with get, set" Usage="Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring.Models.LabelExampleResponse.ExampleId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring</AssemblyName>
@@ -73,7 +73,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
+        <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>

@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
     <AssemblyVersion>2.10.0.0</AssemblyVersion>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,6 +29,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
         <AssemblyVersion>2.10.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -38,19 +40,22 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public IotHubProperties (System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.SharedAccessSignatureAuthorizationRule&gt; authorizationPolicies = default, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.IpFilterRule&gt; ipFilterRules = default, string provisioningState = default, string state = default, string hostName = default, System.Collections.Generic.IDictionary&lt;string,Microsoft.Azure.Management.IotHub.Models.EventHubProperties&gt; eventHubEndpoints = default, Microsoft.Azure.Management.IotHub.Models.RoutingProperties routing = default, System.Collections.Generic.IDictionary&lt;string,Microsoft.Azure.Management.IotHub.Models.StorageEndpointProperties&gt; storageEndpoints = default, System.Collections.Generic.IDictionary&lt;string,Microsoft.Azure.Management.IotHub.Models.MessagingEndpointProperties&gt; messagingEndpoints = default, bool? enableFileUploadNotifications = default, Microsoft.Azure.Management.IotHub.Models.CloudToDeviceProperties cloudToDevice = default, string comments = default, Microsoft.Azure.Management.IotHub.Models.IotHubPropertiesDeviceStreams deviceStreams = default, string features = default, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.IotHubLocationDescription&gt; locations = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.IotHub.Models.SharedAccessSignatureAuthorizationRule&gt; authorizationPolicies, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.IotHub.Models.IpFilterRule&gt; ipFilterRules, string provisioningState, string state, string hostName, class System.Collections.Generic.IDictionary`2&lt;string, class Microsoft.Azure.Management.IotHub.Models.EventHubProperties&gt; eventHubEndpoints, class Microsoft.Azure.Management.IotHub.Models.RoutingProperties routing, class System.Collections.Generic.IDictionary`2&lt;string, class Microsoft.Azure.Management.IotHub.Models.StorageEndpointProperties&gt; storageEndpoints, class System.Collections.Generic.IDictionary`2&lt;string, class Microsoft.Azure.Management.IotHub.Models.MessagingEndpointProperties&gt; messagingEndpoints, valuetype System.Nullable`1&lt;bool&gt; enableFileUploadNotifications, class Microsoft.Azure.Management.IotHub.Models.CloudToDeviceProperties cloudToDevice, string comments, class Microsoft.Azure.Management.IotHub.Models.IotHubPropertiesDeviceStreams deviceStreams, string features, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.IotHub.Models.IotHubLocationDescription&gt; locations) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.Models.IotHubProperties.#ctor(System.Collections.Generic.IList{Microsoft.Azure.Management.IotHub.Models.SharedAccessSignatureAuthorizationRule},System.Collections.Generic.IList{Microsoft.Azure.Management.IotHub.Models.IpFilterRule},System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,Microsoft.Azure.Management.IotHub.Models.EventHubProperties},Microsoft.Azure.Management.IotHub.Models.RoutingProperties,System.Collections.Generic.IDictionary{System.String,Microsoft.Azure.Management.IotHub.Models.StorageEndpointProperties},System.Collections.Generic.IDictionary{System.String,Microsoft.Azure.Management.IotHub.Models.MessagingEndpointProperties},System.Nullable{System.Boolean},Microsoft.Azure.Management.IotHub.Models.CloudToDeviceProperties,System.String,Microsoft.Azure.Management.IotHub.Models.IotHubPropertiesDeviceStreams,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.IotHub.Models.IotHubLocationDescription})" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional authorizationPolicies As IList(Of SharedAccessSignatureAuthorizationRule) = Nothing, Optional ipFilterRules As IList(Of IpFilterRule) = Nothing, Optional provisioningState As String = Nothing, Optional state As String = Nothing, Optional hostName As String = Nothing, Optional eventHubEndpoints As IDictionary(Of String, EventHubProperties) = Nothing, Optional routing As RoutingProperties = Nothing, Optional storageEndpoints As IDictionary(Of String, StorageEndpointProperties) = Nothing, Optional messagingEndpoints As IDictionary(Of String, MessagingEndpointProperties) = Nothing, Optional enableFileUploadNotifications As Nullable(Of Boolean) = Nothing, Optional cloudToDevice As CloudToDeviceProperties = Nothing, Optional comments As String = Nothing, Optional deviceStreams As IotHubPropertiesDeviceStreams = Nothing, Optional features As String = Nothing, Optional locations As IList(Of IotHubLocationDescription) = Nothing)" />
-      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.IotHub.Models.IotHubProperties : System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.SharedAccessSignatureAuthorizationRule&gt; * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.IpFilterRule&gt; * string * string * string * System.Collections.Generic.IDictionary&lt;string, Microsoft.Azure.Management.IotHub.Models.EventHubProperties&gt; * Microsoft.Azure.Management.IotHub.Models.RoutingProperties * System.Collections.Generic.IDictionary&lt;string, Microsoft.Azure.Management.IotHub.Models.StorageEndpointProperties&gt; * System.Collections.Generic.IDictionary&lt;string, Microsoft.Azure.Management.IotHub.Models.MessagingEndpointProperties&gt; * Nullable&lt;bool&gt; * Microsoft.Azure.Management.IotHub.Models.CloudToDeviceProperties * string * Microsoft.Azure.Management.IotHub.Models.IotHubPropertiesDeviceStreams * string * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.IotHubLocationDescription&gt; -&gt; Microsoft.Azure.Management.IotHub.Models.IotHubProperties" Usage="new Microsoft.Azure.Management.IotHub.Models.IotHubProperties (authorizationPolicies, ipFilterRules, provisioningState, state, hostName, eventHubEndpoints, routing, storageEndpoints, messagingEndpoints, enableFileUploadNotifications, cloudToDevice, comments, deviceStreams, features, locations)" />
+      <MemberSignature Language="C#" Value="public IotHubProperties (System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.SharedAccessSignatureAuthorizationRule&gt; authorizationPolicies = default, string publicNetworkAccess = default, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.IpFilterRule&gt; ipFilterRules = default, string minTlsVersion = default, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.PrivateEndpointConnection&gt; privateEndpointConnections = default, string provisioningState = default, string state = default, string hostName = default, System.Collections.Generic.IDictionary&lt;string,Microsoft.Azure.Management.IotHub.Models.EventHubProperties&gt; eventHubEndpoints = default, Microsoft.Azure.Management.IotHub.Models.RoutingProperties routing = default, System.Collections.Generic.IDictionary&lt;string,Microsoft.Azure.Management.IotHub.Models.StorageEndpointProperties&gt; storageEndpoints = default, System.Collections.Generic.IDictionary&lt;string,Microsoft.Azure.Management.IotHub.Models.MessagingEndpointProperties&gt; messagingEndpoints = default, bool? enableFileUploadNotifications = default, Microsoft.Azure.Management.IotHub.Models.CloudToDeviceProperties cloudToDevice = default, string comments = default, string features = default, System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.IotHubLocationDescription&gt; locations = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.IotHub.Models.SharedAccessSignatureAuthorizationRule&gt; authorizationPolicies, string publicNetworkAccess, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.IotHub.Models.IpFilterRule&gt; ipFilterRules, string minTlsVersion, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.IotHub.Models.PrivateEndpointConnection&gt; privateEndpointConnections, string provisioningState, string state, string hostName, class System.Collections.Generic.IDictionary`2&lt;string, class Microsoft.Azure.Management.IotHub.Models.EventHubProperties&gt; eventHubEndpoints, class Microsoft.Azure.Management.IotHub.Models.RoutingProperties routing, class System.Collections.Generic.IDictionary`2&lt;string, class Microsoft.Azure.Management.IotHub.Models.StorageEndpointProperties&gt; storageEndpoints, class System.Collections.Generic.IDictionary`2&lt;string, class Microsoft.Azure.Management.IotHub.Models.MessagingEndpointProperties&gt; messagingEndpoints, valuetype System.Nullable`1&lt;bool&gt; enableFileUploadNotifications, class Microsoft.Azure.Management.IotHub.Models.CloudToDeviceProperties cloudToDevice, string comments, string features, class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.IotHub.Models.IotHubLocationDescription&gt; locations) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Management.IotHub.Models.IotHubProperties.#ctor(System.Collections.Generic.IList{Microsoft.Azure.Management.IotHub.Models.SharedAccessSignatureAuthorizationRule},System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.IotHub.Models.IpFilterRule},System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.IotHub.Models.PrivateEndpointConnection},System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,Microsoft.Azure.Management.IotHub.Models.EventHubProperties},Microsoft.Azure.Management.IotHub.Models.RoutingProperties,System.Collections.Generic.IDictionary{System.String,Microsoft.Azure.Management.IotHub.Models.StorageEndpointProperties},System.Collections.Generic.IDictionary{System.String,Microsoft.Azure.Management.IotHub.Models.MessagingEndpointProperties},System.Nullable{System.Boolean},Microsoft.Azure.Management.IotHub.Models.CloudToDeviceProperties,System.String,System.String,System.Collections.Generic.IList{Microsoft.Azure.Management.IotHub.Models.IotHubLocationDescription})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional authorizationPolicies As IList(Of SharedAccessSignatureAuthorizationRule) = Nothing, Optional publicNetworkAccess As String = Nothing, Optional ipFilterRules As IList(Of IpFilterRule) = Nothing, Optional minTlsVersion As String = Nothing, Optional privateEndpointConnections As IList(Of PrivateEndpointConnection) = Nothing, Optional provisioningState As String = Nothing, Optional state As String = Nothing, Optional hostName As String = Nothing, Optional eventHubEndpoints As IDictionary(Of String, EventHubProperties) = Nothing, Optional routing As RoutingProperties = Nothing, Optional storageEndpoints As IDictionary(Of String, StorageEndpointProperties) = Nothing, Optional messagingEndpoints As IDictionary(Of String, MessagingEndpointProperties) = Nothing, Optional enableFileUploadNotifications As Nullable(Of Boolean) = Nothing, Optional cloudToDevice As CloudToDeviceProperties = Nothing, Optional comments As String = Nothing, Optional features As String = Nothing, Optional locations As IList(Of IotHubLocationDescription) = Nothing)" />
+      <MemberSignature Language="F#" Value="new Microsoft.Azure.Management.IotHub.Models.IotHubProperties : System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.SharedAccessSignatureAuthorizationRule&gt; * string * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.IpFilterRule&gt; * string * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.PrivateEndpointConnection&gt; * string * string * string * System.Collections.Generic.IDictionary&lt;string, Microsoft.Azure.Management.IotHub.Models.EventHubProperties&gt; * Microsoft.Azure.Management.IotHub.Models.RoutingProperties * System.Collections.Generic.IDictionary&lt;string, Microsoft.Azure.Management.IotHub.Models.StorageEndpointProperties&gt; * System.Collections.Generic.IDictionary&lt;string, Microsoft.Azure.Management.IotHub.Models.MessagingEndpointProperties&gt; * Nullable&lt;bool&gt; * Microsoft.Azure.Management.IotHub.Models.CloudToDeviceProperties * string * string * System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.IotHubLocationDescription&gt; -&gt; Microsoft.Azure.Management.IotHub.Models.IotHubProperties" Usage="new Microsoft.Azure.Management.IotHub.Models.IotHubProperties (authorizationPolicies, publicNetworkAccess, ipFilterRules, minTlsVersion, privateEndpointConnections, provisioningState, state, hostName, eventHubEndpoints, routing, storageEndpoints, messagingEndpoints, enableFileUploadNotifications, cloudToDevice, comments, features, locations)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
-        <AssemblyVersion>2.10.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="authorizationPolicies" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.SharedAccessSignatureAuthorizationRule&gt;" />
+        <Parameter Name="publicNetworkAccess" Type="System.String" />
         <Parameter Name="ipFilterRules" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.IpFilterRule&gt;" />
+        <Parameter Name="minTlsVersion" Type="System.String" />
+        <Parameter Name="privateEndpointConnections" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.PrivateEndpointConnection&gt;" />
         <Parameter Name="provisioningState" Type="System.String" />
         <Parameter Name="state" Type="System.String" />
         <Parameter Name="hostName" Type="System.String" />
@@ -61,7 +66,6 @@
         <Parameter Name="enableFileUploadNotifications" Type="System.Nullable&lt;System.Boolean&gt;" />
         <Parameter Name="cloudToDevice" Type="Microsoft.Azure.Management.IotHub.Models.CloudToDeviceProperties" />
         <Parameter Name="comments" Type="System.String" />
-        <Parameter Name="deviceStreams" Type="Microsoft.Azure.Management.IotHub.Models.IotHubPropertiesDeviceStreams" />
         <Parameter Name="features" Type="System.String" />
         <Parameter Name="locations" Type="System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.IotHubLocationDescription&gt;" />
       </Parameters>
@@ -70,7 +74,15 @@
         <param name="cloudToDevice">To be added.</param>
         <param name="authorizationPolicies">The shared access policies you
             can use to secure a connection to the IoT hub.</param>
+        <param name="publicNetworkAccess">Whether requests from Public
+            Network are allowed. Possible values include: 'Enabled',
+            'Disabled'</param>
         <param name="ipFilterRules">The IP filter rules.</param>
+        <param name="minTlsVersion">Specifies the minimum TLS version to
+            support for this hub. Can be set to "1.2" to have clients that use
+            a TLS version below 1.2 to be rejected.</param>
+        <param name="privateEndpointConnections">Private endpoint
+            connections created on this IotHub</param>
         <param name="provisioningState">The provisioning state.</param>
         <param name="state">The hub state.</param>
         <param name="hostName">The name of the host.</param>
@@ -90,8 +102,6 @@
         <param name="enableFileUploadNotifications">If True, file upload
             notifications are enabled.</param>
         <param name="comments">IoT hub comments.</param>
-        <param name="deviceStreams">The device streams properties of
-            iothub.</param>
         <param name="features">The capabilities and features enabled for
             the IoT hub. Possible values include: 'None',
             'DeviceManagement'</param>
@@ -113,6 +123,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
         <AssemblyVersion>2.10.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -142,6 +153,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
         <AssemblyVersion>2.10.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -168,6 +180,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
         <AssemblyVersion>2.10.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -186,34 +199,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="DeviceStreams">
-      <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.IotHub.Models.IotHubPropertiesDeviceStreams DeviceStreams { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.IotHub.Models.IotHubPropertiesDeviceStreams DeviceStreams" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.IotHub.Models.IotHubProperties.DeviceStreams" />
-      <MemberSignature Language="VB.NET" Value="Public Property DeviceStreams As IotHubPropertiesDeviceStreams" />
-      <MemberSignature Language="F#" Value="member this.DeviceStreams : Microsoft.Azure.Management.IotHub.Models.IotHubPropertiesDeviceStreams with get, set" Usage="Microsoft.Azure.Management.IotHub.Models.IotHubProperties.DeviceStreams" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
-        <AssemblyVersion>2.10.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName Language="C#">[Newtonsoft.Json.JsonProperty(PropertyName="deviceStreams")]</AttributeName>
-          <AttributeName Language="F#">[&lt;Newtonsoft.Json.JsonProperty(PropertyName="deviceStreams")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>Microsoft.Azure.Management.IotHub.Models.IotHubPropertiesDeviceStreams</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets or sets the device streams properties of iothub.
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="EnableFileUploadNotifications">
       <MemberSignature Language="C#" Value="public bool? EnableFileUploadNotifications { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; EnableFileUploadNotifications" />
@@ -224,6 +209,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
         <AssemblyVersion>2.10.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -252,6 +238,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
         <AssemblyVersion>2.10.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -283,6 +270,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
         <AssemblyVersion>2.10.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -312,6 +300,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
         <AssemblyVersion>2.10.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -340,6 +329,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
         <AssemblyVersion>2.10.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -368,6 +358,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
         <AssemblyVersion>2.10.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -396,6 +387,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
         <AssemblyVersion>2.10.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -415,6 +407,64 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="MinTlsVersion">
+      <MemberSignature Language="C#" Value="public string MinTlsVersion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MinTlsVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.IotHub.Models.IotHubProperties.MinTlsVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinTlsVersion As String" />
+      <MemberSignature Language="F#" Value="member this.MinTlsVersion : string with get, set" Usage="Microsoft.Azure.Management.IotHub.Models.IotHubProperties.MinTlsVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[Newtonsoft.Json.JsonProperty(PropertyName="minTlsVersion")]</AttributeName>
+          <AttributeName Language="F#">[&lt;Newtonsoft.Json.JsonProperty(PropertyName="minTlsVersion")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets specifies the minimum TLS version to support for this
+            hub. Can be set to "1.2" to have clients that use a TLS version
+            below 1.2 to be rejected.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrivateEndpointConnections">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.PrivateEndpointConnection&gt; PrivateEndpointConnections { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;class Microsoft.Azure.Management.IotHub.Models.PrivateEndpointConnection&gt; PrivateEndpointConnections" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.IotHub.Models.IotHubProperties.PrivateEndpointConnections" />
+      <MemberSignature Language="VB.NET" Value="Public Property PrivateEndpointConnections As IList(Of PrivateEndpointConnection)" />
+      <MemberSignature Language="F#" Value="member this.PrivateEndpointConnections : System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.PrivateEndpointConnection&gt; with get, set" Usage="Microsoft.Azure.Management.IotHub.Models.IotHubProperties.PrivateEndpointConnections" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[Newtonsoft.Json.JsonProperty(PropertyName="privateEndpointConnections")]</AttributeName>
+          <AttributeName Language="F#">[&lt;Newtonsoft.Json.JsonProperty(PropertyName="privateEndpointConnections")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.IList&lt;Microsoft.Azure.Management.IotHub.Models.PrivateEndpointConnection&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets private endpoint connections created on this IotHub
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ProvisioningState">
       <MemberSignature Language="C#" Value="public string ProvisioningState { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ProvisioningState" />
@@ -425,6 +475,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
         <AssemblyVersion>2.10.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -443,6 +494,35 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="PublicNetworkAccess">
+      <MemberSignature Language="C#" Value="public string PublicNetworkAccess { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PublicNetworkAccess" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Management.IotHub.Models.IotHubProperties.PublicNetworkAccess" />
+      <MemberSignature Language="VB.NET" Value="Public Property PublicNetworkAccess As String" />
+      <MemberSignature Language="F#" Value="member this.PublicNetworkAccess : string with get, set" Usage="Microsoft.Azure.Management.IotHub.Models.IotHubProperties.PublicNetworkAccess" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName Language="C#">[Newtonsoft.Json.JsonProperty(PropertyName="publicNetworkAccess")]</AttributeName>
+          <AttributeName Language="F#">[&lt;Newtonsoft.Json.JsonProperty(PropertyName="publicNetworkAccess")&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets or sets whether requests from Public Network are allowed.
+            Possible values include: 'Enabled', 'Disabled'
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Routing">
       <MemberSignature Language="C#" Value="public Microsoft.Azure.Management.IotHub.Models.RoutingProperties Routing { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Management.IotHub.Models.RoutingProperties Routing" />
@@ -453,6 +533,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
         <AssemblyVersion>2.10.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -479,6 +560,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
         <AssemblyVersion>2.10.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -507,6 +589,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
         <AssemblyVersion>2.10.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -541,6 +624,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Azure.Management.IotHub</AssemblyName>
         <AssemblyVersion>2.10.0.0</AssemblyVersion>
+        <AssemblyVersion>3.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
