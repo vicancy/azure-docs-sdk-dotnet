@@ -178,8 +178,8 @@
         <remarks>
             For more information, see <see href="https://docs.microsoft.com/azure/documentdb/documentdb-performance-tips#direct-connection">Connection policy: Use direct connection mode</see>.
             </remarks>
-        <altmember cref="M:Microsoft.Azure.Cosmos.Fluent.CosmosClientBuilder.WithConnectionModeGateway(System.Nullable{System.Int32},System.Net.IWebProxy)" />
         <altmember cref="M:Microsoft.Azure.Cosmos.Fluent.CosmosClientBuilder.WithConnectionModeDirect" />
+        <altmember cref="M:Microsoft.Azure.Cosmos.Fluent.CosmosClientBuilder.WithConnectionModeGateway(System.Nullable{System.Int32},System.Net.IWebProxy)" />
       </Docs>
     </Member>
     <Member MemberName="ConsistencyLevel">
@@ -262,9 +262,9 @@
           <para>This is optimal for workloads where the returned resource is not used.</para>
           <para>This option can be overriden by similar property in ItemRequestOptions and TransactionalBatchItemRequestOptions</para>
         </remarks>
-        <altmember cref="M:Microsoft.Azure.Cosmos.Fluent.CosmosClientBuilder.WithContentResponseOnWrite(System.Boolean)" />
         <altmember cref="P:Microsoft.Azure.Cosmos.ItemRequestOptions.EnableContentResponseOnWrite" />
         <altmember cref="P:Microsoft.Azure.Cosmos.TransactionalBatchItemRequestOptions.EnableContentResponseOnWrite" />
+        <altmember cref="M:Microsoft.Azure.Cosmos.Fluent.CosmosClientBuilder.WithContentResponseOnWrite(System.Boolean)" />
       </Docs>
     </Member>
     <Member MemberName="EnableTcpConnectionEndpointRediscovery">
@@ -710,31 +710,6 @@
             
             CosmosClient client = new CosmosClient("endpoint", "key", clientOptions);
             </example>
-      </Docs>
-    </Member>
-    <Member MemberName="TokenCredentialBackgroundRefreshInterval">
-      <MemberSignature Language="C#" Value="public TimeSpan? TokenCredentialBackgroundRefreshInterval { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.TimeSpan&gt; TokenCredentialBackgroundRefreshInterval" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Cosmos.CosmosClientOptions.TokenCredentialBackgroundRefreshInterval" />
-      <MemberSignature Language="VB.NET" Value="Public Property TokenCredentialBackgroundRefreshInterval As Nullable(Of TimeSpan)" />
-      <MemberSignature Language="F#" Value="member this.TokenCredentialBackgroundRefreshInterval : Nullable&lt;TimeSpan&gt; with get, set" Usage="Microsoft.Azure.Cosmos.CosmosClientOptions.TokenCredentialBackgroundRefreshInterval" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
-        <AssemblyVersion>3.17.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Nullable&lt;System.TimeSpan&gt;</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            The SDK does a background refresh based on the time interval set to refresh the token credentials.
-            This avoids latency issues because the old token is used until the new token is retrieved.
-            </summary>
-        <value>To be added.</value>
-        <remarks>
-            The recommended minimum value is 5 minutes. The default value is 25% of the token expire time.
-            </remarks>
       </Docs>
     </Member>
     <Member MemberName="WebProxy">

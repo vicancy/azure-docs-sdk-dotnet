@@ -22,7 +22,7 @@
              Being schema-free, the documents in a container do not need to share the same structure or fields. Since containers are application resources,
              they can be authorized using either the master key or resource keys.
              </remarks>
-    <altmember cref="T:Microsoft.Azure.Cosmos.UniqueKeyPolicy" />
+    <altmember cref="T:Microsoft.Azure.Cosmos.IndexingPolicy" />
     <example>
              The example below creates a new partitioned container with 50000 Request-per-Unit throughput.
              The partition key is the first level 'country' property in all the documents within this container.
@@ -46,7 +46,7 @@
                  Container container = client.GetDatabase("dbName").Containers["MyCollection"];
                  await container.DeleteAsync();
              ]]></code></example>
-    <altmember cref="T:Microsoft.Azure.Cosmos.IndexingPolicy" />
+    <altmember cref="T:Microsoft.Azure.Cosmos.UniqueKeyPolicy" />
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -62,30 +62,6 @@
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>
-            Initializes a new instance of the <see cref="T:Microsoft.Azure.Cosmos.ContainerProperties" /> class for the Azure Cosmos DB service.
-            </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ContainerProperties (string id, System.Collections.Generic.IReadOnlyList&lt;string&gt; partitionKeyPaths);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, class System.Collections.Generic.IReadOnlyList`1&lt;string&gt; partitionKeyPaths) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Azure.Cosmos.ContainerProperties.#ctor(System.String,System.Collections.Generic.IReadOnlyList{System.String})" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (id As String, partitionKeyPaths As IReadOnlyList(Of String))" />
-      <MemberSignature Language="F#" Value="new Microsoft.Azure.Cosmos.ContainerProperties : string * System.Collections.Generic.IReadOnlyList&lt;string&gt; -&gt; Microsoft.Azure.Cosmos.ContainerProperties" Usage="new Microsoft.Azure.Cosmos.ContainerProperties (id, partitionKeyPaths)" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
-        <AssemblyVersion>3.17.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Parameters>
-        <Parameter Name="id" Type="System.String" />
-        <Parameter Name="partitionKeyPaths" Type="System.Collections.Generic.IReadOnlyList&lt;System.String&gt;" />
-      </Parameters>
-      <Docs>
-        <param name="id">The Id of the resource in the Azure Cosmos service.</param>
-        <param name="partitionKeyPaths">The path to the partition key. Example: /location</param>
         <summary>
             Initializes a new instance of the <see cref="T:Microsoft.Azure.Cosmos.ContainerProperties" /> class for the Azure Cosmos DB service.
             </summary>
@@ -186,71 +162,6 @@
              <code language="c#"><![CDATA[
                  container.AnalyticalStoreTimeToLiveInSeconds = (int)TimeSpan.FromDays(6 * 30).TotalSeconds;
              ]]></code></example>
-      </Docs>
-    </Member>
-    <Member MemberName="ChangeFeedPolicy">
-      <MemberSignature Language="C#" Value="public Microsoft.Azure.Cosmos.ChangeFeedPolicy ChangeFeedPolicy { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Cosmos.ChangeFeedPolicy ChangeFeedPolicy" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Cosmos.ContainerProperties.ChangeFeedPolicy" />
-      <MemberSignature Language="VB.NET" Value="Public Property ChangeFeedPolicy As ChangeFeedPolicy" />
-      <MemberSignature Language="F#" Value="member this.ChangeFeedPolicy : Microsoft.Azure.Cosmos.ChangeFeedPolicy with get, set" Usage="Microsoft.Azure.Cosmos.ContainerProperties.ChangeFeedPolicy" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
-        <AssemblyVersion>3.17.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName Language="C#">[Newtonsoft.Json.JsonIgnore]</AttributeName>
-          <AttributeName Language="F#">[&lt;Newtonsoft.Json.JsonIgnore&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>Microsoft.Azure.Cosmos.ChangeFeedPolicy</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the <see cref="P:Microsoft.Azure.Cosmos.ContainerProperties.ChangeFeedPolicy" /> associated with the container from the Azure Cosmos DB service.
-            </summary>
-        <value>
-            The change feed policy associated with the container.
-            </value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ClientEncryptionPolicy">
-      <MemberSignature Language="C#" Value="public Microsoft.Azure.Cosmos.ClientEncryptionPolicy ClientEncryptionPolicy { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Azure.Cosmos.ClientEncryptionPolicy ClientEncryptionPolicy" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Cosmos.ContainerProperties.ClientEncryptionPolicy" />
-      <MemberSignature Language="VB.NET" Value="Public Property ClientEncryptionPolicy As ClientEncryptionPolicy" />
-      <MemberSignature Language="F#" Value="member this.ClientEncryptionPolicy : Microsoft.Azure.Cosmos.ClientEncryptionPolicy with get, set" Usage="Microsoft.Azure.Cosmos.ContainerProperties.ClientEncryptionPolicy" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
-        <AssemblyVersion>3.17.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName Language="C#">[Newtonsoft.Json.JsonIgnore]</AttributeName>
-          <AttributeName Language="F#">[&lt;Newtonsoft.Json.JsonIgnore&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>Microsoft.Azure.Cosmos.ClientEncryptionPolicy</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Gets the client encryption policy information for storing items in a container from the Azure Cosmos service.
-            </summary>
-        <value>
-            It is an optional property.
-            By default, ClientEncryptionPolicy is set to null meaning the feature is turned off for the container.
-            </value>
-        <remarks>
-          <para>
-            The <see cref="P:Microsoft.Azure.Cosmos.ContainerProperties.ClientEncryptionPolicy" /> will be applied to all the items in the container as the default policy.
-            </para>
-        </remarks>
       </Docs>
     </Member>
     <Member MemberName="ConflictResolutionPolicy">
@@ -582,34 +493,6 @@
       </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            JSON path used for containers partitioning
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="PartitionKeyPaths">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;string&gt; PartitionKeyPaths { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyList`1&lt;string&gt; PartitionKeyPaths" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.Azure.Cosmos.ContainerProperties.PartitionKeyPaths" />
-      <MemberSignature Language="VB.NET" Value="Public Property PartitionKeyPaths As IReadOnlyList(Of String)" />
-      <MemberSignature Language="F#" Value="member this.PartitionKeyPaths : System.Collections.Generic.IReadOnlyList&lt;string&gt; with get, set" Usage="Microsoft.Azure.Cosmos.ContainerProperties.PartitionKeyPaths" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.Azure.Cosmos.Client</AssemblyName>
-        <AssemblyVersion>3.17.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName Language="C#">[Newtonsoft.Json.JsonIgnore]</AttributeName>
-          <AttributeName Language="F#">[&lt;Newtonsoft.Json.JsonIgnore&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Collections.Generic.IReadOnlyList&lt;System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
